@@ -1,0 +1,1013 @@
+/* b52.glint_detail.scss */
+/*! Copyright Centobytes Informatisering, www.centobytes.nl */
+/*
+https://web.dev/accessible-tap-targets/
+A minimum recommended touch target size is around 48 device independent pixels on a site with a properly set mobile viewport.
+For example, while an icon may only have a width and height of 24px, 
+  you can use additional padding to bring the tap target size up to 48px. 
+The 48x48 pixel area corresponds to around 9mm, which is about the size of a person's finger pad area.
+
+Touch targets should also be spaced about 8 pixels apart, both horizontally and vertically, 
+  so that a user's finger pressing on one tap target does not inadvertently touch another tap target.
+*/
+.fa-lg {
+  font-size: 1.3333333333em;
+  line-height: 0.75em;
+  vertical-align: -.0667em; }
+
+.fa-xs {
+  font-size: .75em; }
+
+.fa-sm {
+  font-size: .875em; }
+
+.fa-1x {
+  font-size: 1em; }
+
+.fa-2x {
+  font-size: 2em; }
+
+.fa-3x {
+  font-size: 3em; }
+
+.fa-4x {
+  font-size: 4em; }
+
+.fa-5x {
+  font-size: 5em; }
+
+.fa-6x {
+  font-size: 6em; }
+
+.fa-7x {
+  font-size: 7em; }
+
+.fa-8x {
+  font-size: 8em; }
+
+.fa-9x {
+  font-size: 9em; }
+
+.fa-10x {
+  font-size: 10em; }
+
+/* -------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------- */
+/* TODO: geheel afmaken */
+/* -------------------------------------------------------------------------- */
+/* rfs_plus_bs4.scss */
+/* -------------------------------------------------------------------------- */
+h1, .h1 {
+  font-size: calc(1.375rem + 1.5vw); }
+  @media (min-width: 1200px) {
+    h1, .h1 {
+      font-size: 2.5rem; } }
+
+h2, .h2 {
+  font-size: calc(1.325rem + 0.9vw); }
+  @media (min-width: 1200px) {
+    h2, .h2 {
+      font-size: 2rem; } }
+
+h3, .h3 {
+  font-size: calc(1.3rem + 0.6vw); }
+  @media (min-width: 1200px) {
+    h3, .h3 {
+      font-size: 1.75rem; } }
+
+h4, .h4 {
+  font-size: calc(1.275rem + 0.3vw); }
+  @media (min-width: 1200px) {
+    h4, .h4 {
+      font-size: 1.5rem; } }
+
+p {
+  margin-bottom: 1rem; }
+
+.display-1 {
+  font-size: calc(1.725rem + 5.7vw); }
+  @media (min-width: 1200px) {
+    .display-1 {
+      font-size: 6rem; } }
+
+.display-2 {
+  font-size: calc(1.675rem + 5.1vw); }
+  @media (min-width: 1200px) {
+    .display-2 {
+      font-size: 5.5rem; } }
+
+.display-3 {
+  font-size: calc(1.575rem + 3.9vw); }
+  @media (min-width: 1200px) {
+    .display-3 {
+      font-size: 4.5rem; } }
+
+.display-4 {
+  font-size: calc(1.475rem + 2.7vw); }
+  @media (min-width: 1200px) {
+    .display-4 {
+      font-size: 3.5rem; } }
+
+/* -------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------- */
+/* g04.icon_defa.scss */
+.icon-default-01 {
+  font-size: 2em; }
+
+.icon-appbar-01 {
+  font-size: 2em; }
+
+.icon-navbar-34 {
+  font-size: 2em; }
+
+.icon-card-footer-01 {
+  font-size: 2em; }
+
+.icon-block-01 {
+  font-size: 2em; }
+
+.icon-block-02 {
+  font-size: 3em; }
+
+.icon-container-01 {
+  font-size: 6em; }
+
+.icon-scrollpage-02 {
+  font-size: 6em;
+  font-size: 6em; }
+
+.icon-scrollpage-03 {
+  font-size: 6em; }
+
+.icon-spacing-default-01 {
+  padding-right: 0rem;
+  padding-left: 1.5rem; }
+
+.icon-spacing-01 {
+  padding-right: 0rem;
+  padding-left: 1.5rem; }
+
+.icon-spacing-02 {
+  padding-right: 0rem;
+  padding-left: 1.5rem; }
+
+.icon-spacing-10 {
+  padding-right: 0.25rem;
+  padding-left: 0.25rem; }
+
+/* -------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------- */
+/* b52.glint_pwa_02.scss */
+/*
+https://web.dev/accessible-tap-targets/
+A minimum recommended touch target size is around 48 device independent pixels on a site with a properly set mobile viewport.
+For example, while an icon may only have a width and height of 24px, 
+  you can use additional padding to bring the tap target size up to 48px. 
+The 48x48 pixel area corresponds to around 9mm, which is about the size of a person's finger pad area.
+
+Touch targets should also be spaced about 8 pixels apart, both horizontally and vertically, 
+  so that a user's finger pressing on one tap target does not inadvertently touch another tap target.
+*/
+.fa-lg {
+  font-size: 1.3333333333em;
+  line-height: 0.75em;
+  vertical-align: -.0667em; }
+
+.fa-xs {
+  font-size: .75em; }
+
+.fa-sm {
+  font-size: .875em; }
+
+.fa-1x {
+  font-size: 1em; }
+
+.fa-2x {
+  font-size: 2em; }
+
+.fa-3x {
+  font-size: 3em; }
+
+.fa-4x {
+  font-size: 4em; }
+
+.fa-5x {
+  font-size: 5em; }
+
+.fa-6x {
+  font-size: 6em; }
+
+.fa-7x {
+  font-size: 7em; }
+
+.fa-8x {
+  font-size: 8em; }
+
+.fa-9x {
+  font-size: 9em; }
+
+.fa-10x {
+  font-size: 10em; }
+
+/* -------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------- */
+/* TODO: geheel afmaken */
+body {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-top: 4px; }
+  @media screen and (max-width: 767px) {
+    body {
+      background: url("../images/ag_05_small.jpg") no-repeat center center fixed; } }
+  @media screen and (min-width: 768px) {
+    body {
+      background: url("../images/ag_05_large.jpg") no-repeat center center fixed; } }
+  @media screen and (min-width: 0) {
+    body {
+      background: rgba(0, 255, 255, 0.7); } }
+  @media screen and (min-width: 576px) {
+    body {
+      background: rgba(255, 0, 0, 0.7); } }
+  @media screen and (min-width: 768px) {
+    body {
+      background: rgba(0, 128, 0, 0.7); } }
+  @media screen and (min-width: 992px) {
+    body {
+      background: rgba(0, 0, 255, 0.7); } }
+  @media screen and (min-width: 1200px) {
+    body {
+      background: #FFF; } }
+  @media (min-width: 768px) {
+    body {
+      padding-top: 4px; } }
+
+.wrapper_block_salina_pagetitle_99_01 .block_salina_pagetitle_01G {
+  margin-top: 1.25rem;
+  padding-right: 1rem;
+  margin-bottom: 0.6rem;
+  padding-left: 1rem; }
+  @media (min-width: 768px) {
+    .wrapper_block_salina_pagetitle_99_01 .block_salina_pagetitle_01G {
+      margin-top: 2.1rem; } }
+  @media (min-width: 768px) {
+    .wrapper_block_salina_pagetitle_99_01 .block_salina_pagetitle_01G {
+      padding-right: 1rem; } }
+  @media (min-width: 768px) {
+    .wrapper_block_salina_pagetitle_99_01 .block_salina_pagetitle_01G {
+      margin-bottom: 1rem; } }
+  @media (min-width: 768px) {
+    .wrapper_block_salina_pagetitle_99_01 .block_salina_pagetitle_01G {
+      padding-left: 1rem; } }
+  .wrapper_block_salina_pagetitle_99_01 .block_salina_pagetitle_01G h1, .wrapper_block_salina_pagetitle_99_01 .block_salina_pagetitle_01G h2, .wrapper_block_salina_pagetitle_99_01 .block_salina_pagetitle_01G h3, .wrapper_block_salina_pagetitle_99_01 .block_salina_pagetitle_01G h4, .wrapper_block_salina_pagetitle_99_01 .block_salina_pagetitle_01G h5, .wrapper_block_salina_pagetitle_99_01 .block_salina_pagetitle_01G h6 {
+    text-align: center; }
+
+.loc_section_navbar_99_01 {
+  margin-bottom: 20px; }
+
+.wrapper_navbar_lavinia_99_01 .navbar_lavinia_34G {
+  border-radius: 0.3rem; }
+  .wrapper_navbar_lavinia_99_01 .navbar_lavinia_34G .snip_navbar_icons_01 .nav-link {
+    padding-right: 0.5rem;
+    padding-left: 0.5rem; }
+
+.container_athena_99_01 {
+  color: #aaa;
+  background-color: #272B30;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  border-color: red;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 0.3rem; }
+
+.wrapper_block_salina_nail_99_xl_01_legacy .block_salina_nail_01G_xl > img {
+  background: #272B30;
+  max-width: 100%;
+  height: auto; }
+.wrapper_block_salina_nail_99_xl_01_legacy .block_salina_nail_01G_xl img {
+  border-radius: 0.3rem; }
+.wrapper_block_salina_nail_99_xl_01_legacy .block_salina_nail_01G_xl img {
+  border-color: red;
+  border-width: 1px;
+  border-style: solid; }
+
+.wrapper_block_athena_52_99_01 .block_athena_52G {
+  border-color: red;
+  border-width: 1px;
+  border-style: solid; }
+  .wrapper_block_athena_52_99_01 .block_athena_52G .block-body {
+    color: #aaa;
+    background-color: #32383e;
+    overflow: hidden;
+    padding-top: 0.5rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    padding-bottom: 0.25rem; }
+    .wrapper_block_athena_52_99_01 .block_athena_52G .block-body .block-title {
+      text-align: center; }
+    @media (min-width: 768px) {
+      .wrapper_block_athena_52_99_01 .block_athena_52G .block-body {
+        padding-top: 1rem; } }
+    @media (min-width: 768px) {
+      .wrapper_block_athena_52_99_01 .block_athena_52G .block-body {
+        padding-right: 1rem; } }
+    @media (min-width: 768px) {
+      .wrapper_block_athena_52_99_01 .block_athena_52G .block-body {
+        padding-left: 1rem; } }
+    @media (min-width: 768px) {
+      .wrapper_block_athena_52_99_01 .block_athena_52G .block-body {
+        padding-bottom: 0.5rem; } }
+
+.wrapper_block_athena_image_01_99_01 .block_athena_image_01G img {
+  background: #272B30;
+  max-width: 100%;
+  height: auto; }
+.wrapper_block_athena_image_01_99_01 .block_athena_image_01G img {
+  border-radius: 0.25rem; }
+.wrapper_block_athena_image_01_99_01 .block_athena_image_01G img {
+  border-color: red;
+  border-width: 1px;
+  border-style: solid; }
+
+.wrapper_block_athena_61_99_01 .block_athena_61G {
+  border-color: red;
+  border-width: 1px;
+  border-style: solid; }
+  .wrapper_block_athena_61_99_01 .block_athena_61G .block-body {
+    color: #aaa;
+    background-color: #32383e;
+    padding-top: 0.5rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    padding-bottom: 0.25rem; }
+    .wrapper_block_athena_61_99_01 .block_athena_61G .block-body .block-title {
+      text-align: center; }
+    @media (min-width: 768px) {
+      .wrapper_block_athena_61_99_01 .block_athena_61G .block-body {
+        padding-top: 1rem; } }
+    @media (min-width: 768px) {
+      .wrapper_block_athena_61_99_01 .block_athena_61G .block-body {
+        padding-right: 1rem; } }
+    @media (min-width: 768px) {
+      .wrapper_block_athena_61_99_01 .block_athena_61G .block-body {
+        padding-left: 1rem; } }
+    @media (min-width: 768px) {
+      .wrapper_block_athena_61_99_01 .block_athena_61G .block-body {
+        padding-bottom: 0.5rem; } }
+
+.wrapper_footer_lavinia_99_01 .footer_lavinia_11G {
+  color: #aaa;
+  background-color: #272B30;
+  padding-top: 1rem; }
+  @media (min-width: 768px) {
+    .wrapper_footer_lavinia_99_01 .footer_lavinia_11G {
+      padding-top: 1.5rem; } }
+  .container .wrapper_footer_lavinia_99_01 .footer_lavinia_11G {
+    padding-top: 1rem; }
+    @media (min-width: 768px) {
+      .container .wrapper_footer_lavinia_99_01 .footer_lavinia_11G {
+        padding-top: 1.5rem; } }
+  .wrapper_footer_lavinia_99_01 .footer_lavinia_11G .block_lavinia_adres_11G .block-body {
+    color: #aaa;
+    background-color: #32383e;
+    text-align: center;
+    padding-top: 0.5rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    padding-bottom: 1rem; }
+    .wrapper_footer_lavinia_99_01 .footer_lavinia_11G .block_lavinia_adres_11G .block-body address {
+      margin-bottom: 0rem; }
+    @media (min-width: 768px) {
+      .wrapper_footer_lavinia_99_01 .footer_lavinia_11G .block_lavinia_adres_11G .block-body {
+        padding-top: 1rem; } }
+    @media (min-width: 768px) {
+      .wrapper_footer_lavinia_99_01 .footer_lavinia_11G .block_lavinia_adres_11G .block-body {
+        padding-right: 1rem; } }
+    @media (min-width: 768px) {
+      .wrapper_footer_lavinia_99_01 .footer_lavinia_11G .block_lavinia_adres_11G .block-body {
+        padding-left: 1rem; } }
+    @media (min-width: 768px) {
+      .wrapper_footer_lavinia_99_01 .footer_lavinia_11G .block_lavinia_adres_11G .block-body {
+        padding-bottom: 1rem; } }
+  .wrapper_footer_lavinia_99_01 .footer_lavinia_11G .block_lavinia_contact_11G .block-body {
+    color: #aaa;
+    background-color: #32383e;
+    text-align: center;
+    padding-top: 0.5rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    padding-bottom: 1rem; }
+    .wrapper_footer_lavinia_99_01 .footer_lavinia_11G .block_lavinia_contact_11G .block-body address {
+      margin-bottom: 0rem; }
+    @media (min-width: 768px) {
+      .wrapper_footer_lavinia_99_01 .footer_lavinia_11G .block_lavinia_contact_11G .block-body {
+        padding-top: 1rem; } }
+    @media (min-width: 768px) {
+      .wrapper_footer_lavinia_99_01 .footer_lavinia_11G .block_lavinia_contact_11G .block-body {
+        padding-right: 1rem; } }
+    @media (min-width: 768px) {
+      .wrapper_footer_lavinia_99_01 .footer_lavinia_11G .block_lavinia_contact_11G .block-body {
+        padding-left: 1rem; } }
+    @media (min-width: 768px) {
+      .wrapper_footer_lavinia_99_01 .footer_lavinia_11G .block_lavinia_contact_11G .block-body {
+        padding-bottom: 1rem; } }
+  .wrapper_footer_lavinia_99_01 .footer_lavinia_11G .block_lavinia_brand_11G .block-body {
+    color: #aaa;
+    background-color: #32383e;
+    text-align: center;
+    padding-top: 0.5rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    padding-bottom: 1rem; }
+    .wrapper_footer_lavinia_99_01 .footer_lavinia_11G .block_lavinia_brand_11G .block-body h2, .wrapper_footer_lavinia_99_01 .footer_lavinia_11G .block_lavinia_brand_11G .block-body h3 {
+      margin-bottom: 0rem; }
+    @media (min-width: 768px) {
+      .wrapper_footer_lavinia_99_01 .footer_lavinia_11G .block_lavinia_brand_11G .block-body {
+        padding-top: 1rem; } }
+    @media (min-width: 768px) {
+      .wrapper_footer_lavinia_99_01 .footer_lavinia_11G .block_lavinia_brand_11G .block-body {
+        padding-right: 1rem; } }
+    @media (min-width: 768px) {
+      .wrapper_footer_lavinia_99_01 .footer_lavinia_11G .block_lavinia_brand_11G .block-body {
+        padding-left: 1rem; } }
+    @media (min-width: 768px) {
+      .wrapper_footer_lavinia_99_01 .footer_lavinia_11G .block_lavinia_brand_11G .block-body {
+        padding-bottom: 1rem; } }
+
+.loc_section_carousel_01 {
+  padding-top: 1rem; }
+  @media (min-width: 768px) {
+    .loc_section_carousel_01 {
+      padding-top: 1.5rem; } }
+  .container .loc_section_carousel_01 {
+    padding-top: 1rem; }
+    @media (min-width: 768px) {
+      .container .loc_section_carousel_01 {
+        padding-top: 1.5rem; } }
+
+.wrapper_carousel_athena_51_01 .carousel_athena_51G .carousel_athena_51G_item_01 .carousel_athena_51G_caption {
+  bottom: 20px;
+  right: 20%;
+  left: 20%;
+  padding-top: 0.5rem;
+  padding-right: 0.25rem;
+  padding-bottom: 0.25rem;
+  padding-left: 0.5rem;
+  background-color: rgba(0, 0, 0, 0.35);
+  /*
+    // Afmetingen Block op de Phone
+    left: 10%;
+    bottom: 8px;
+    padding: 0 4px;
+    width: 236px;
+  
+  
+    @include media-breakpoint-up(md) {
+      //font-size: $font-size-h4;
+  
+      p {
+        // Herstel de default margin van 10px;
+        margin-bottom: 10px;
+      }
+  
+      h3 {
+        margin-top: 20px;
+        margin-bottom: 10px;
+      }
+  
+      // Afmetingen Block op de Tablet
+      left: 30%;
+      bottom: 30px;
+      padding: 8px;
+      width: 310px;
+    }
+  
+    @include media-breakpoint-up(lg) {
+      //font-size: $font-size-h3;
+  
+      // Afmetingen Block op de Desktop.
+      left: 30%;
+      bottom: 30px;
+      padding: 12px;
+      width: 420px;
+    }
+  */
+  border-radius: 0.25rem; }
+  @media (min-width: 768px) {
+    .wrapper_carousel_athena_51_01 .carousel_athena_51G .carousel_athena_51G_item_01 .carousel_athena_51G_caption {
+      padding-top: 1.5rem; } }
+  @media (min-width: 768px) {
+    .wrapper_carousel_athena_51_01 .carousel_athena_51G .carousel_athena_51G_item_01 .carousel_athena_51G_caption {
+      padding-right: 0.5rem; } }
+  @media (min-width: 768px) {
+    .wrapper_carousel_athena_51_01 .carousel_athena_51G .carousel_athena_51G_item_01 .carousel_athena_51G_caption {
+      padding-bottom: 0.5rem; } }
+  @media (min-width: 768px) {
+    .wrapper_carousel_athena_51_01 .carousel_athena_51G .carousel_athena_51G_item_01 .carousel_athena_51G_caption {
+      padding-left: 0.5rem; } }
+  .wrapper_carousel_athena_51_01 .carousel_athena_51G .carousel_athena_51G_item_01 .carousel_athena_51G_caption p {
+    color: #fff; }
+    @media screen and (min-width: 1200px) {
+      .wrapper_carousel_athena_51_01 .carousel_athena_51G .carousel_athena_51G_item_01 .carousel_athena_51G_caption p {
+        font-size: 1.25rem; } }
+  @media (max-width: 767px) {
+    .wrapper_carousel_athena_51_01 .carousel_athena_51G .carousel_athena_51G_item_01 .carousel_athena_51G_caption {
+      bottom: 10px;
+      right: 15%;
+      left: 15%; } }
+  @media (min-width: 768px) {
+    .wrapper_carousel_athena_51_01 .carousel_athena_51G .carousel_athena_51G_item_01 .carousel_athena_51G_caption {
+      bottom: 38px; } }
+
+.wrapper_jumbotron_athena_01_01 .jumbotron_athena_01G {
+  text-align: center;
+  color: #aaa;
+  background-color: #1c1e22;
+  margin-bottom: 0px;
+  padding-top: 1rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  padding-bottom: 1rem;
+  border-color: red;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 0.3rem; }
+  .wrapper_jumbotron_athena_01_01 .jumbotron_athena_01G h1, .wrapper_jumbotron_athena_01_01 .jumbotron_athena_01G h2, .wrapper_jumbotron_athena_01_01 .jumbotron_athena_01G h3, .wrapper_jumbotron_athena_01_01 .jumbotron_athena_01G h4, .wrapper_jumbotron_athena_01_01 .jumbotron_athena_01G h5, .wrapper_jumbotron_athena_01_01 .jumbotron_athena_01G h6 {
+    color: #aaa;
+    text-shadow: none; }
+  @media (min-width: 768px) {
+    .wrapper_jumbotron_athena_01_01 .jumbotron_athena_01G {
+      padding-top: 1rem; } }
+  @media (min-width: 768px) {
+    .wrapper_jumbotron_athena_01_01 .jumbotron_athena_01G {
+      padding-right: 1rem; } }
+  @media (min-width: 768px) {
+    .wrapper_jumbotron_athena_01_01 .jumbotron_athena_01G {
+      padding-left: 1rem; } }
+  @media (min-width: 768px) {
+    .wrapper_jumbotron_athena_01_01 .jumbotron_athena_01G {
+      padding-bottom: 1rem; } }
+  .wrapper_jumbotron_athena_01_01 .jumbotron_athena_01G .jumbotron_quote blockquote {
+    padding: 0px;
+    color: #aaa; }
+    .wrapper_jumbotron_athena_01_01 .jumbotron_athena_01G .jumbotron_quote blockquote i {
+      font-size: 1em;
+      color: #aaa; }
+    @media (min-width: 768px) {
+      .wrapper_jumbotron_athena_01_01 .jumbotron_athena_01G .jumbotron_quote blockquote i {
+        font-size: 2em;
+        margin-right: 6px; } }
+
+.wrapper_block_athena_42_01 .block_athena_42G .block-body {
+  color: #aaa;
+  background-color: #32383e;
+  padding-top: 0.5rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  padding-bottom: 1rem; }
+  .wrapper_block_athena_42_01 .block_athena_42G .block-body .block-title {
+    text-align: center; }
+  .wrapper_block_athena_42_01 .block_athena_42G .block-body img {
+    display: block;
+    margin: 0 auto 0 auto; }
+  @media (min-width: 768px) {
+    .wrapper_block_athena_42_01 .block_athena_42G .block-body img {
+      float: left; } }
+  .wrapper_block_athena_42_01 .block_athena_42G .block-body img {
+    background: #272B30;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 15px; }
+    @media (min-width: 768px) {
+      .wrapper_block_athena_42_01 .block_athena_42G .block-body img {
+        margin-right: 15px; } }
+  .wrapper_block_athena_42_01 .block_athena_42G .block-body .block-button {
+    text-align: center;
+    margin: 0 auto !important; }
+    .wrapper_block_athena_42_01 .block_athena_42G .block-body .block-button .btn-outline-custom {
+      color: #aaa;
+      border-color: #aaa; }
+      .wrapper_block_athena_42_01 .block_athena_42G .block-body .block-button .btn-outline-custom:hover {
+        color: white;
+        background-color: #aaa;
+        border-color: #aaa; }
+      .wrapper_block_athena_42_01 .block_athena_42G .block-body .block-button .btn-outline-custom:focus, .wrapper_block_athena_42_01 .block_athena_42G .block-body .block-button .btn-outline-custom.focus {
+        box-shadow: 0 0 0 0.2rem rgba(170, 170, 170, 0.5); }
+      .wrapper_block_athena_42_01 .block_athena_42G .block-body .block-button .btn-outline-custom.disabled, .wrapper_block_athena_42_01 .block_athena_42G .block-body .block-button .btn-outline-custom:disabled {
+        color: #aaa;
+        background-color: transparent; }
+      .wrapper_block_athena_42_01 .block_athena_42G .block-body .block-button .btn-outline-custom:not(:disabled):not(.disabled):active, .wrapper_block_athena_42_01 .block_athena_42G .block-body .block-button .btn-outline-custom:not(:disabled):not(.disabled).active, .show > .wrapper_block_athena_42_01 .block_athena_42G .block-body .block-button .btn-outline-custom.dropdown-toggle {
+        color: color-yiq(#aaa);
+        background-color: #aaa;
+        border-color: #aaa; }
+        .wrapper_block_athena_42_01 .block_athena_42G .block-body .block-button .btn-outline-custom:not(:disabled):not(.disabled):active:focus, .wrapper_block_athena_42_01 .block_athena_42G .block-body .block-button .btn-outline-custom:not(:disabled):not(.disabled).active:focus, .show > .wrapper_block_athena_42_01 .block_athena_42G .block-body .block-button .btn-outline-custom.dropdown-toggle:focus {
+          box-shadow: 0 0 0 0.2rem rgba(170, 170, 170, 0.5); }
+  @media (min-width: 768px) {
+    .wrapper_block_athena_42_01 .block_athena_42G .block-body {
+      padding-top: 1rem; } }
+  @media (min-width: 768px) {
+    .wrapper_block_athena_42_01 .block_athena_42G .block-body {
+      padding-right: 1rem; } }
+  @media (min-width: 768px) {
+    .wrapper_block_athena_42_01 .block_athena_42G .block-body {
+      padding-left: 1rem; } }
+  @media (min-width: 768px) {
+    .wrapper_block_athena_42_01 .block_athena_42G .block-body {
+      padding-bottom: 1rem; } }
+.wrapper_block_athena_42_01 .block_athena_42G .btn-outline-custom {
+  color: orange;
+  border-color: orange; }
+  .wrapper_block_athena_42_01 .block_athena_42G .btn-outline-custom:hover {
+    color: violet;
+    background-color: orange;
+    border-color: orange; }
+  .wrapper_block_athena_42_01 .block_athena_42G .btn-outline-custom:focus, .wrapper_block_athena_42_01 .block_athena_42G .btn-outline-custom.focus {
+    box-shadow: 0 0 0 0.2rem rgba(255, 165, 0, 0.5); }
+  .wrapper_block_athena_42_01 .block_athena_42G .btn-outline-custom.disabled, .wrapper_block_athena_42_01 .block_athena_42G .btn-outline-custom:disabled {
+    color: orange;
+    background-color: transparent; }
+  .wrapper_block_athena_42_01 .block_athena_42G .btn-outline-custom:not(:disabled):not(.disabled):active, .wrapper_block_athena_42_01 .block_athena_42G .btn-outline-custom:not(:disabled):not(.disabled).active, .show > .wrapper_block_athena_42_01 .block_athena_42G .btn-outline-custom.dropdown-toggle {
+    color: color-yiq(orange);
+    background-color: orange;
+    border-color: orange; }
+    .wrapper_block_athena_42_01 .block_athena_42G .btn-outline-custom:not(:disabled):not(.disabled):active:focus, .wrapper_block_athena_42_01 .block_athena_42G .btn-outline-custom:not(:disabled):not(.disabled).active:focus, .show > .wrapper_block_athena_42_01 .block_athena_42G .btn-outline-custom.dropdown-toggle:focus {
+      box-shadow: 0 0 0 0.2rem rgba(255, 165, 0, 0.5); }
+.wrapper_block_athena_42_01 .block_athena_42G .block-body {
+  min-height: 0px; }
+@media (min-width: 768px) {
+  .wrapper_block_athena_42_01 .block_athena_42G .block-body {
+    min-height: 184px; } }
+@media (min-width: 992px) {
+  .wrapper_block_athena_42_01 .block_athena_42G .block-body {
+    min-height: 240px; } }
+@media (min-width: 1200px) {
+  .wrapper_block_athena_42_01 .block_athena_42G .block-body {
+    min-height: 200px; } }
+
+.section_athena_10 .section_title {
+  text-align: center; }
+  .section_athena_10 .section_title h1 {
+    margin-top: 14px;
+    margin-bottom: 18px; }
+
+.wrapper_section_lavinia_kop_02_01 .section_lavinia_kop_01G {
+  text-align: center;
+  color: #aaa; }
+  .wrapper_section_lavinia_kop_02_01 .section_lavinia_kop_01G h2 {
+    margin-top: 1rem;
+    margin-bottom: 0.5rem; }
+    @media (min-width: 768px) {
+      .wrapper_section_lavinia_kop_02_01 .section_lavinia_kop_01G h2 {
+        margin-top: 1.5rem; } }
+    @media (min-width: 768px) {
+      .wrapper_section_lavinia_kop_02_01 .section_lavinia_kop_01G h2 {
+        margin-bottom: 1rem; } }
+
+.section_advantage_01 {
+  color: #aaa;
+  background-color: #272B30;
+  padding-bottom: 0.25rem;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  text-align: center; }
+  @media (min-width: 768px) {
+    .section_advantage_01 {
+      padding-bottom: 0.5rem; } }
+  @media screen and (max-width: 767px) {
+    .section_advantage_01 {
+      background-image: url("../images/achtergrond_05_small.jpg"); } }
+  @media screen and (min-width: 768px) {
+    .section_advantage_01 {
+      background-image: url("../images/achtergrond_05.jpg"); } }
+
+.wrapper_card_helena_milli_02_01 .card_helena_milli_01G {
+  text-align: center;
+  color: #aaa;
+  background-color: #32383e;
+  background-color: transparent;
+  border-color: #000; }
+  .wrapper_card_helena_milli_02_01 .card_helena_milli_01G .card-body {
+    color: #aaa; }
+  .wrapper_card_helena_milli_02_01 .card_helena_milli_01G .card-header {
+    color: #aaa; }
+  .wrapper_card_helena_milli_02_01 .card_helena_milli_01G h1, .wrapper_card_helena_milli_02_01 .card_helena_milli_01G h2, .wrapper_card_helena_milli_02_01 .card_helena_milli_01G h3, .wrapper_card_helena_milli_02_01 .card_helena_milli_01G h4, .wrapper_card_helena_milli_02_01 .card_helena_milli_01G h5, .wrapper_card_helena_milli_02_01 .card_helena_milli_01G h6 {
+    text-shadow: none; }
+  .wrapper_card_helena_milli_02_01 .card_helena_milli_01G .card-icon svg {
+    font-size: 6em;
+    margin-top: 2px; }
+    @media (min-width: 768px) {
+      .wrapper_card_helena_milli_02_01 .card_helena_milli_01G .card-icon svg {
+        margin-top: 10px; } }
+  .wrapper_card_helena_milli_02_01 .card_helena_milli_01G .card-title {
+    margin-top: 0.5rem; }
+  .wrapper_card_helena_milli_02_01 .card_helena_milli_01G .card-title {
+    color: #F16663; }
+    @media (min-width: 10px) {
+      .wrapper_card_helena_milli_02_01 .card_helena_milli_01G .card-title {
+        color: #f16663; } }
+  .wrapper_card_helena_milli_02_01 .card_helena_milli_01G .card-subtitle {
+    color: #F16663; }
+    @media (min-width: 10px) {
+      .wrapper_card_helena_milli_02_01 .card_helena_milli_01G .card-subtitle {
+        color: #f16663; } }
+  .wrapper_card_helena_milli_02_01 .card_helena_milli_01G .card-text {
+    color: #F16663; }
+    @media (min-width: 10px) {
+      .wrapper_card_helena_milli_02_01 .card_helena_milli_01G .card-text {
+        color: #f16663; } }
+  .wrapper_card_helena_milli_02_01 .card_helena_milli_01G .card-body {
+    background-color: #000; }
+    @media (min-width: 10px) {
+      .wrapper_card_helena_milli_02_01 .card_helena_milli_01G .card-body {
+        background-color: rgba(0, 0, 0, 0.3); } }
+  @media (min-width: 10px) {
+    .wrapper_card_helena_milli_02_01 .card_helena_milli_01G {
+      border-color: rgba(0, 0, 0, 0.3); } }
+  .wrapper_card_helena_milli_02_01 .card_helena_milli_01G .card-header {
+    border-bottom-color: #000; }
+    @media (min-width: 10px) {
+      .wrapper_card_helena_milli_02_01 .card_helena_milli_01G .card-header {
+        border-bottom-color: rgba(0, 0, 0, 0.3); } }
+  .wrapper_card_helena_milli_02_01 .card_helena_milli_01G .card-footer {
+    border-top-color: #000; }
+    @media (min-width: 10px) {
+      .wrapper_card_helena_milli_02_01 .card_helena_milli_01G .card-footer {
+        border-top-color: rgba(0, 0, 0, 0.3); } }
+  .wrapper_card_helena_milli_02_01 .card_helena_milli_01G .card-icon svg {
+    color: #F16663; }
+
+.wrapper_card_helena_milli_02_02 .card_helena_milli_01G {
+  text-align: center;
+  color: #aaa;
+  background-color: #32383e;
+  background-color: transparent;
+  border-color: #000; }
+  .wrapper_card_helena_milli_02_02 .card_helena_milli_01G .card-body {
+    color: #aaa; }
+  .wrapper_card_helena_milli_02_02 .card_helena_milli_01G .card-header {
+    color: #aaa; }
+  .wrapper_card_helena_milli_02_02 .card_helena_milli_01G h1, .wrapper_card_helena_milli_02_02 .card_helena_milli_01G h2, .wrapper_card_helena_milli_02_02 .card_helena_milli_01G h3, .wrapper_card_helena_milli_02_02 .card_helena_milli_01G h4, .wrapper_card_helena_milli_02_02 .card_helena_milli_01G h5, .wrapper_card_helena_milli_02_02 .card_helena_milli_01G h6 {
+    text-shadow: none; }
+  .wrapper_card_helena_milli_02_02 .card_helena_milli_01G .card-icon svg {
+    font-size: 6em;
+    margin-top: 2px; }
+    @media (min-width: 768px) {
+      .wrapper_card_helena_milli_02_02 .card_helena_milli_01G .card-icon svg {
+        margin-top: 10px; } }
+  .wrapper_card_helena_milli_02_02 .card_helena_milli_01G .card-title {
+    margin-top: 0.5rem; }
+  .wrapper_card_helena_milli_02_02 .card_helena_milli_01G .card-title {
+    color: #F2E07B; }
+    @media (min-width: 10px) {
+      .wrapper_card_helena_milli_02_02 .card_helena_milli_01G .card-title {
+        color: #f2e07b; } }
+  .wrapper_card_helena_milli_02_02 .card_helena_milli_01G .card-subtitle {
+    color: #F2E07B; }
+    @media (min-width: 10px) {
+      .wrapper_card_helena_milli_02_02 .card_helena_milli_01G .card-subtitle {
+        color: #f2e07b; } }
+  .wrapper_card_helena_milli_02_02 .card_helena_milli_01G .card-text {
+    color: #F2E07B; }
+    @media (min-width: 10px) {
+      .wrapper_card_helena_milli_02_02 .card_helena_milli_01G .card-text {
+        color: #f2e07b; } }
+  .wrapper_card_helena_milli_02_02 .card_helena_milli_01G .card-body {
+    background-color: #000; }
+    @media (min-width: 10px) {
+      .wrapper_card_helena_milli_02_02 .card_helena_milli_01G .card-body {
+        background-color: rgba(0, 0, 0, 0.3); } }
+  @media (min-width: 10px) {
+    .wrapper_card_helena_milli_02_02 .card_helena_milli_01G {
+      border-color: rgba(0, 0, 0, 0.3); } }
+  .wrapper_card_helena_milli_02_02 .card_helena_milli_01G .card-header {
+    border-bottom-color: #000; }
+    @media (min-width: 10px) {
+      .wrapper_card_helena_milli_02_02 .card_helena_milli_01G .card-header {
+        border-bottom-color: rgba(0, 0, 0, 0.3); } }
+  .wrapper_card_helena_milli_02_02 .card_helena_milli_01G .card-footer {
+    border-top-color: #000; }
+    @media (min-width: 10px) {
+      .wrapper_card_helena_milli_02_02 .card_helena_milli_01G .card-footer {
+        border-top-color: rgba(0, 0, 0, 0.3); } }
+  .wrapper_card_helena_milli_02_02 .card_helena_milli_01G .card-icon svg {
+    color: #F2E07B; }
+
+.wrapper_card_helena_milli_02_03 .card_helena_milli_01G {
+  text-align: center;
+  color: #aaa;
+  background-color: #32383e;
+  background-color: transparent;
+  border-color: #000; }
+  .wrapper_card_helena_milli_02_03 .card_helena_milli_01G .card-body {
+    color: #aaa; }
+  .wrapper_card_helena_milli_02_03 .card_helena_milli_01G .card-header {
+    color: #aaa; }
+  .wrapper_card_helena_milli_02_03 .card_helena_milli_01G h1, .wrapper_card_helena_milli_02_03 .card_helena_milli_01G h2, .wrapper_card_helena_milli_02_03 .card_helena_milli_01G h3, .wrapper_card_helena_milli_02_03 .card_helena_milli_01G h4, .wrapper_card_helena_milli_02_03 .card_helena_milli_01G h5, .wrapper_card_helena_milli_02_03 .card_helena_milli_01G h6 {
+    text-shadow: none; }
+  .wrapper_card_helena_milli_02_03 .card_helena_milli_01G .card-icon svg {
+    font-size: 6em;
+    margin-top: 2px; }
+    @media (min-width: 768px) {
+      .wrapper_card_helena_milli_02_03 .card_helena_milli_01G .card-icon svg {
+        margin-top: 10px; } }
+  .wrapper_card_helena_milli_02_03 .card_helena_milli_01G .card-title {
+    margin-top: 0.5rem; }
+  .wrapper_card_helena_milli_02_03 .card_helena_milli_01G .card-title {
+    color: #8ABE9B; }
+    @media (min-width: 10px) {
+      .wrapper_card_helena_milli_02_03 .card_helena_milli_01G .card-title {
+        color: #8abe9b; } }
+  .wrapper_card_helena_milli_02_03 .card_helena_milli_01G .card-subtitle {
+    color: #8ABE9B; }
+    @media (min-width: 10px) {
+      .wrapper_card_helena_milli_02_03 .card_helena_milli_01G .card-subtitle {
+        color: #8abe9b; } }
+  .wrapper_card_helena_milli_02_03 .card_helena_milli_01G .card-text {
+    color: #8ABE9B; }
+    @media (min-width: 10px) {
+      .wrapper_card_helena_milli_02_03 .card_helena_milli_01G .card-text {
+        color: #8abe9b; } }
+  .wrapper_card_helena_milli_02_03 .card_helena_milli_01G .card-body {
+    background-color: #000; }
+    @media (min-width: 10px) {
+      .wrapper_card_helena_milli_02_03 .card_helena_milli_01G .card-body {
+        background-color: rgba(0, 0, 0, 0.3); } }
+  @media (min-width: 10px) {
+    .wrapper_card_helena_milli_02_03 .card_helena_milli_01G {
+      border-color: rgba(0, 0, 0, 0.3); } }
+  .wrapper_card_helena_milli_02_03 .card_helena_milli_01G .card-header {
+    border-bottom-color: #000; }
+    @media (min-width: 10px) {
+      .wrapper_card_helena_milli_02_03 .card_helena_milli_01G .card-header {
+        border-bottom-color: rgba(0, 0, 0, 0.3); } }
+  .wrapper_card_helena_milli_02_03 .card_helena_milli_01G .card-footer {
+    border-top-color: #000; }
+    @media (min-width: 10px) {
+      .wrapper_card_helena_milli_02_03 .card_helena_milli_01G .card-footer {
+        border-top-color: rgba(0, 0, 0, 0.3); } }
+  .wrapper_card_helena_milli_02_03 .card_helena_milli_01G .card-icon svg {
+    color: #8ABE9B; }
+
+.loc_section_referenties_03_01 {
+  padding-bottom: 0.25rem; }
+  @media (min-width: 768px) {
+    .loc_section_referenties_03_01 {
+      padding-bottom: 0.5rem; } }
+
+.wrapper_section_lavinia_kop_03_01 .section_lavinia_kop_01G {
+  text-align: center;
+  color: #aaa; }
+  .wrapper_section_lavinia_kop_03_01 .section_lavinia_kop_01G h2 {
+    margin-top: 1rem;
+    margin-bottom: 0.5rem; }
+    @media (min-width: 768px) {
+      .wrapper_section_lavinia_kop_03_01 .section_lavinia_kop_01G h2 {
+        margin-top: 1.5rem; } }
+    @media (min-width: 768px) {
+      .wrapper_section_lavinia_kop_03_01 .section_lavinia_kop_01G h2 {
+        margin-bottom: 1rem; } }
+
+.wrapper_card_athena_referentie_03_01 .card_athena_referentie_11G {
+  text-align: center;
+  border-color: red;
+  border-color: rgba(0, 0, 0, 0.6); }
+  .wrapper_card_athena_referentie_03_01 .card_athena_referentie_11G .card-body {
+    color: #aaa; }
+  .wrapper_card_athena_referentie_03_01 .card_athena_referentie_11G .card-header {
+    color: #aaa; }
+  .wrapper_card_athena_referentie_03_01 .card_athena_referentie_11G img {
+    margin-top: 0.5rem;
+    margin-right: auto;
+    margin-bottom: 0.5rem;
+    margin-left: auto;
+    width: 62%;
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%; }
+    @media (min-width: 768px) {
+      .wrapper_card_athena_referentie_03_01 .card_athena_referentie_11G img {
+        margin-top: 1rem; } }
+    @media (min-width: 768px) {
+      .wrapper_card_athena_referentie_03_01 .card_athena_referentie_11G img {
+        margin-bottom: 1rem; } }
+  .wrapper_card_athena_referentie_03_01 .card_athena_referentie_11G img {
+    border-color: red;
+    border-width: 1px;
+    border-style: solid; }
+  .wrapper_card_athena_referentie_03_01 .card_athena_referentie_11G .card-header {
+    border-bottom-color: red; }
+  .wrapper_card_athena_referentie_03_01 .card_athena_referentie_11G .card-footer {
+    border-top-color: red; }
+  .wrapper_card_athena_referentie_03_01 .card_athena_referentie_11G .card-header {
+    color: #C8C8C8; }
+    @media (min-width: 10px) {
+      .wrapper_card_athena_referentie_03_01 .card_athena_referentie_11G .card-header {
+        color: #c8c8c8; } }
+  .wrapper_card_athena_referentie_03_01 .card_athena_referentie_11G .card-header {
+    background-color: #3e444c; }
+    @media (min-width: 10px) {
+      .wrapper_card_athena_referentie_03_01 .card_athena_referentie_11G .card-header {
+        background-color: #3e444c; } }
+  .wrapper_card_athena_referentie_03_01 .card_athena_referentie_11G .card-title {
+    color: #C8C8C8; }
+    @media (min-width: 10px) {
+      .wrapper_card_athena_referentie_03_01 .card_athena_referentie_11G .card-title {
+        color: #c8c8c8; } }
+  .wrapper_card_athena_referentie_03_01 .card_athena_referentie_11G .card-subtitle {
+    color: #C8C8C8; }
+    @media (min-width: 10px) {
+      .wrapper_card_athena_referentie_03_01 .card_athena_referentie_11G .card-subtitle {
+        color: #c8c8c8; } }
+  .wrapper_card_athena_referentie_03_01 .card_athena_referentie_11G .card-text {
+    color: #C8C8C8; }
+    @media (min-width: 10px) {
+      .wrapper_card_athena_referentie_03_01 .card_athena_referentie_11G .card-text {
+        color: #c8c8c8; } }
+  .wrapper_card_athena_referentie_03_01 .card_athena_referentie_11G .card-body {
+    background-color: #2e3338; }
+    @media (min-width: 10px) {
+      .wrapper_card_athena_referentie_03_01 .card_athena_referentie_11G .card-body {
+        background-color: #2e3338; } }
+  .wrapper_card_athena_referentie_03_01 .card_athena_referentie_11G .card-footer {
+    color: #C8C8C8; }
+    @media (min-width: 10px) {
+      .wrapper_card_athena_referentie_03_01 .card_athena_referentie_11G .card-footer {
+        color: #c8c8c8; } }
+  .wrapper_card_athena_referentie_03_01 .card_athena_referentie_11G .card-footer {
+    background-color: #3e444c; }
+    @media (min-width: 10px) {
+      .wrapper_card_athena_referentie_03_01 .card_athena_referentie_11G .card-footer {
+        background-color: #3e444c; } }
+  @media (min-width: 992px) {
+    .wrapper_card_athena_referentie_03_01 .card_athena_referentie_11G {
+      border-color: black; } }
+  .wrapper_card_athena_referentie_03_01 .card_athena_referentie_11G .card-header {
+    border-bottom-color: rgba(0, 0, 0, 0.6); }
+    @media (min-width: 992px) {
+      .wrapper_card_athena_referentie_03_01 .card_athena_referentie_11G .card-header {
+        border-bottom-color: black; } }
+  .wrapper_card_athena_referentie_03_01 .card_athena_referentie_11G .card-footer {
+    border-top-color: rgba(0, 0, 0, 0.6); }
+    @media (min-width: 992px) {
+      .wrapper_card_athena_referentie_03_01 .card_athena_referentie_11G .card-footer {
+        border-top-color: black; } }
+
+.wrapper_section_athena_info_06_block_01 .block_salina_nail_01G_md > img {
+  background: #272B30;
+  max-width: 100%;
+  height: auto; }
+.wrapper_section_athena_info_06_block_01 .block_athena_72G .block-body {
+  color: #aaa;
+  background-color: #32383e; }
+.wrapper_section_athena_info_06_block_01 .block_athena_72G .block-body {
+  padding-top: 0.25rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  padding-bottom: 0.25rem;
+  text-align: left; }
+  @media (min-width: 768px) {
+    .wrapper_section_athena_info_06_block_01 .block_athena_72G .block-body {
+      padding-top: 1rem; } }
+  @media (min-width: 768px) {
+    .wrapper_section_athena_info_06_block_01 .block_athena_72G .block-body {
+      padding-right: 1rem; } }
+  @media (min-width: 768px) {
+    .wrapper_section_athena_info_06_block_01 .block_athena_72G .block-body {
+      padding-left: 0rem; } }
+  @media (min-width: 768px) {
+    .wrapper_section_athena_info_06_block_01 .block_athena_72G .block-body {
+      padding-bottom: 0.5rem; } }
+  @media screen and (min-width: 768px) {
+    .wrapper_section_athena_info_06_block_01 .block_athena_72G .block-body {
+      text-align: left; } }
+
+.wrapper_block_athena_maps_02_01 .block_athena_maps_02G {
+  border-radius: 0.3rem;
+  border-color: rgba(0, 0, 0, 0.6); }
+  .wrapper_block_athena_maps_02_01 .block_athena_maps_02G .maps_image > img {
+    background: #272B30;
+    max-width: 100%;
+    height: auto; }
+  .wrapper_block_athena_maps_02_01 .block_athena_maps_02G .maps_interactief {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1rem; }
+    @media (min-width: 768px) {
+      .wrapper_block_athena_maps_02_01 .block_athena_maps_02G .maps_interactief {
+        padding-top: 0.5rem; } }
+    @media (min-width: 768px) {
+      .wrapper_block_athena_maps_02_01 .block_athena_maps_02G .maps_interactief {
+        padding-bottom: 0.5rem; } }
+    @media (min-width: 768px) {
+      .wrapper_block_athena_maps_02_01 .block_athena_maps_02G .maps_interactief {
+        padding-left: 1rem; } }
+
+/* -------------------------------------------------------------------------- ]]
+/* -------------------------------------------------------------------------- */

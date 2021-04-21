@@ -1,0 +1,101 @@
+{% comment %}
+<!-- ======================================================================= -->
+<!-- Naam: loc_head_defa_10.html -->
+<!-- ======================================================================= -->
+{% endcomment %}
+
+<!-- TODO: 2. Snappen wat het inhoudt en iconen maken, komen uit: https://v5.getbootstrap.com, zie techniek/pwa /
+<link rel="icon" href="/docs/5.0/assets/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
+<link rel="icon" href="/docs/5.0/assets/img/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
+-->      
+<!-- Zie  https://developer.yoast.com/blog/safari-pinned-tab-icon-mask-icon/ --> 
+<link rel="mask-icon" href="{{ loc_url_rel }}{{ loc_path_icons }}safari-pinned-tab.svg" color="#2E354E">
+
+<!-- Start Genereert met t_generate_social_meta -->
+<link rel="apple-touch-icon"     href="assets/icons/glint-192x192.png" sizes="192x192">
+<meta name="theme-color"         content="#2E354E">
+
+<!-- Twitter -->
+<meta name="twitter:card"        content="summary">
+<meta name="twitter:site"        content="@bauke_mobi">
+<meta name="twitter:title"       content="Glint.mobi">
+<meta name="twitter:description" content="Snelle, veilige en goedkope websites, die schitteren.">
+<meta name="twitter:image"       content="http://127.0.0.1:4000/assets/images/twitter_summary.png">
+<meta name="twitter:image:alt"   content="Websites, die schitteren" />
+
+<!-- Facebook -->
+<meta property="og:title"        content="Glint.mobi">
+<meta property="og:type"         content="website">
+<meta property="og:url"          content="http://www.glint.mobi/websites-schitterend/">
+<meta property="og:image"        content="http://127.0.0.1:4000/assets/images/twitter_summary.png">
+<meta property="og:description"  content="Snelle, veilige en goedkope websites, die schitteren.">
+<meta property="og:image:type"   content="image/png">
+<meta property="og:image:width"  content="680">
+<meta property="og:image:height" content="357">
+<!-- Einde Genereert met t_generate_social_meta -->
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Corporation",
+  "name":           "Glint.mobi",
+  "alternateName":  "Centobytes",      
+  "url":            "http://www.glint.mobi",
+  "logo":           "http://127.0.0.1:4000/assets/icons/glint-512x512.png"
+}
+</script>
+  
+{% if loc_site_testen %}
+  <link rel="stylesheet" href="{{ loc_url_rel }}{{ loc_path_css }}glint_strap.css">
+  <link rel="stylesheet" href="{{ loc_url_rel }}{{ loc_path_css }}glint_blok.css">
+  <link rel="stylesheet" href="{{ loc_url_rel }}{{ loc_path_css }}glint_detail.css">
+{% else %}
+  <link rel="stylesheet" href="{{ loc_url_rel }}{{ loc_path_css }}glint_strap.css">
+  <link rel="stylesheet" href="{{ loc_url_rel }}{{ loc_path_css }}glint_deploy.css">
+{% endif %}
+
+<script defer src="https://use.fontawesome.com/releases/v5.7.1/js/all.js" integrity="sha384-eVEQC9zshBn0rFj4+TU78eNA19HMNigMviK/PU/FFjLXqa/GKPgX58rvt5Z8PLs7" crossorigin="anonymous"></script>  
+
+{% if loc_site_testen %}
+
+   <script type="text/javascript" src="{{ loc_url_rel }}{{ loc_path_js_vendor }}template-web.js"></script>
+   <script>
+      template.defaults.escape= false;
+      glint_save_includes = false;      
+   </script>
+
+   <script type="text/javascript" src="{{ loc_url_rel }}{{ loc_path_js_glint }}defa_data_bs4.js"></script>
+   <script type="text/javascript" src="{{ loc_url_rel }}{{ loc_path_js_glint }}loc_data_pwa_02.js"></script>
+
+   <script type="text/javascript" src="{{ loc_url_rel }}{{ loc_path_js_glint }}defa_biblio_bs4.js"></script>
+   
+<!--
+   <script type="text/javascript" src="{{ loc_url_rel }}{{ loc_path_js_glint }}helena_biblio_bs4.js"></script>
+   <script type="text/javascript" src="{{ loc_url_rel }}{{ loc_path_js_glint }}athena_biblio_bs4.js"></script>
+   <script type="text/javascript" src="{{ loc_url_rel }}{{ loc_path_js_glint }}lavinia_biblio_bs4.js"></script>
+   <script type="text/javascript" src="{{ loc_url_rel }}{{ loc_path_js_glint }}salina_biblio_bs4.js"></script>
+   <script type="text/javascript" src="{{ loc_url_rel }}{{ loc_path_js_glint }}lodash_biblio.js"></script>
+-->   
+   
+   <script type="text/javascript" src="{{ loc_url_rel }}{{ loc_path_js_glint }}loc_biblio_pwa_02.js"></script>   
+{% endif %}
+
+<script type="module">
+  /*
+  // TODO: 2. testen of alles werkt bij een upload.  
+  Functionality Offline page, https://www.pwabuilder.com/serviceworker
+  Er moet een offline.html aanwezig zijn.
+  This code uses the pwa-update web component https://github.com/pwa-builder/pwa-update to register your service worker,
+  tell the user when there is an update available and let the user know when your PWA is ready to use offline.
+  */
+
+  import 'https://cdn.jsdelivr.net/npm/@pwabuilder/pwaupdate';
+
+  const el = document.createElement('pwa-update');
+  document.body.appendChild(el);
+</script>
+
+{% comment %}
+<!-- ======================================================================= -->
+<!-- ======================================================================= -->
+{% endcomment %}

@@ -1,0 +1,92 @@
+---
+layout: default_helena_10G_LINK
+permalink: index.html
+page_number: 1
+config_block_4201:
+  button_class: "btn-outline-custom"
+---
+{% comment %}
+<!-- ======================================================================= -->
+<!-- ======================================================================= -->
+{% endcomment %}
+
+{% include default/default_helena_20G_var_lite_LINK.html %}
+{% include default/default_helena_01G_content_LINK.html %}
+
+<!-- =====================< HEADER >======================================== -->
+<!-- opmaak nakijken <section class="section_athena_10"> -->
+<div class="container container_athena_99_01">
+  <!-- =====================< NAV BAR >======================================= -->
+  <section class="loc_section_navbar_99_01">
+    <div class="wrapper_navbar_lavinia_99_01">
+      {% include render/0101_navbar_lavinia.html %}
+    </div>
+  </section>    
+  <!-- ====================< SECTION CAROUSEL >=============================== -->
+  <section class="loc_section_carousel_01">
+    <!--<div class="container">-->
+      <div class="row">
+        <div class="col-carousel-athena-017">
+          <div class="wrapper_carousel_athena_51_01">
+            {% include render/0101_carousel_athena.html %}
+          </div>
+        </div>
+      </div>
+    <!--</div>-->
+  </section>
+  <!-- ====================< SECTION JUMBOTRON >============================== -->
+  <section class="section_jumbotron_11">
+    <!--<div class="container">-->
+      <div class="row">
+        <div class="col-always-12B">
+          <div class="wrapper_jumbotron_athena_01_01">
+            {% include jumbotron_athena_01G.html content=content_athena_defa.jumbotron_athena_011 %}
+          </div>
+        </div>
+      </div>
+    <!--</div>-->
+  </section>
+  <!-- ====================< SECTION KEUZE BLOCKS >=========================== -->
+  <section class="section_keuze_blocks_11">
+    <!--<div class="container">-->
+      <div class="row show-grxid">
+        <div class="col-blocks-31">
+          <div class="wrapper_block_athena_42_01">
+            {% include block_athena_42G.html
+            content=content_athena_defa.block_athena_421
+            path_media=loc_path_bedrijf_media
+            config=page.config_block_4201 %}            
+          </div>
+        </div>
+        <div class="col-blocks-31">
+          <div class="wrapper_block_athena_42_01">
+            {% include block_athena_42G.html
+            content=content_athena_defa.block_athena_422
+            path_media=loc_path_bedrijf_media 
+            config=page.config_block_4201 %}
+          </div>
+        </div>
+        <div class="col-blocks-31">
+          <div class="wrapper_block_athena_42_01">
+            {% include block_athena_42G.html
+            content=content_athena_defa.block_athena_423
+            path_media=loc_path_bedrijf_media
+            config=page.config_block_4201 %}            
+          </div>
+        </div>
+      </div>
+    <!--</div>-->
+  </section>
+
+</div>
+<!-- ==================< FOOTER >=========================================== -->
+{% include default/copyright_start.html %}
+<div class="wrapper_footer_lavinia_99_01" id= "contact">
+  {% include render/0101_footer_lavinia.html %}
+</div>
+{% include default/copyright_end.html %}
+
+{% comment %}
+<!-- ======================================================================= -->
+<!-- ======================================================================= -->
+{% endcomment %}

@@ -1,0 +1,433 @@
+{
+  "block_athena_011": {
+    "kop": "ConseqKLEINTJEuuntur",
+    "foto_bestand": "kantoor_02_medium.jpg",
+    "foto_alt": "&nbsp;",
+    "tekst": "<p>Placeat molestiae numquam qui et Nisi maxime esse et numquam eos est iure soluta accusantium aut.</p><p>Sit expedita omnis corporis voluptatem debitis est quia et sit quos pariatur quis odio Aut est et eius.</p>"
+  },
+  "block_athena_012": {
+    "kop": "DesXXXerunt",
+    "foto_bestand": "kantoor_03_medium.jpg",
+    "foto_alt": "&nbsp;",
+    "tekst": "<p>Temporibus non sunt nobis eos vel aut Ea aut ea dolorum pariatur dolores quam sapiente quod iusto et quibusdam qui molestias optio.</p><p>Quam nesciunt id molestias aut iure et optio hic quibusdam fugit adipisci eaque Inventore sit minus quas voluptas omnis beatae.</p>"
+  },
+  "block_athena_021": {
+    "kop": "Ratione",
+    "foto_bestand": "slide-11.jpg",
+    "foto_alt": "&nbsp;",
+    "tekst": "<p>Amet esse delectus molestiae ut sint aut doloribus blanditiis delectus sit explicabo aspernatur quos Ipsa omnis aliquam dolorem et excepturi reiciendis est laudantium autem corrupti aperiam.</p><p>Natus rem reprehenderit possimus consequatur sint earum Nihil totam repellendus quas harum sapiente sint saepe iure autem commodi.</p>"
+  },
+  "block_athena_022": {
+    "kop": "Animi",
+    "foto_bestand": "slide-12.jpg",
+    "foto_alt": "&nbsp;",
+    "tekst": "<p>Facere quos officia dolores neque nobis asperiores Quas ea et est impedit.</p><p>Dignissimos eaque eum labore qui dignissimos excepturi consequatur quis ut maxime qui qui voluptates Omnis aspernatur minus debitis aperiam quia itaque est amet et voluptatem dolorum maiores.</p>"
+  },
+  "block_athena_023": {
+    "kop": "Blanditiis",
+    "foto_bestand": "slide-13.jpg",
+    "foto_alt": "&nbsp;",
+    "tekst": "<p>Voluptas temporibus accusamus esse magni voluptas deleniti reiciendis aperiam quidem eveniet. beatae eligendi autem rerum vero aliquam. autem aperiam magnam aut labore cumque explicabo laudantium architecto est. enim ipsam est et non harum veniam natus suscipit delectus qui et.</p>"
+   },
+  "block_athena_024": {
+    "kop": "Ratione Extra",
+    "foto_bestand": "slide-11.jpg",
+    "foto_alt": "&nbsp;",
+    "tekst": "<p>Amet esse delectus molestiae ut sint aut doloribus blanditiis delectus sit explicabo aspernatur quos Ipsa omnis aliquam dolorem et excepturi reiciendis est laudantium autem corrupti aperiam.</p><p>Natus rem reprehenderit possimus consequatur sint earum Nihil totam repellendus quas harum sapiente sint saepe iure autem commodi.</p>"
+  },
+  "block_athena_411": {
+    "kop": "Producten",
+    "foto_bestand": "slide-11.jpg",
+    "foto_alt": "&nbsp;",
+    "tekst": "<p>Amet esse delectus molestiae ut sint aut doloribus blanditiis delectus sit explicabo aspernatur quos Ipsa omnis aliquam dolorem et excepturi reiciendis est laudantium autem corrupti aperiam.</p><p>Natus rem reprehenderit possimus consequatur sint earum Nihil totam repellendus quas harum sapiente sint saepe iure autem commodi.</p>",
+    "knop_tekst": "Producten",
+    "knop_link": "producten.html"
+  },
+  "block_athena_412": {
+    "kop": "Bedrijf",
+    "foto_bestand": "slide-12.jpg",
+    "foto_alt": "&nbsp;",
+    "tekst": "<p>Facere quos officia dolores neque nobis asperiores Quas ea et est impedit.</p><p>Dignissimos eaque eum labore qui dignissimos excepturi consequatur quis ut maxime qui qui voluptates Omnis aspernatur minus debitis aperiam quia itaque est amet et voluptatem dolorum maiores.</p>",
+    "knop_tekst": "Bedrijf",
+    "knop_link": "bedrijf.html"
+  },
+  "block_athena_421": {
+    "kop": "Producten",
+    "foto_bestand": "slide-11.jpg",
+    "foto_alt": "&nbsp;",
+    "tekst": "<p>In ons aanbod vind je niet alleen heel veel verschillende soorten snoep, zoetwaren, lolly's en chocolade, ook voor drinken kun je bij ons terecht.</p><p>Je kunt bij ons terecht voor vele bekende merken. En we breiden regelmatig ons aanbod uit met nieuwe producten. Houd onze website dus goed in de gaten, want zo blijf je op de hoogte van ons aanbod</p>",
+    "knop_tekst": "Producten",
+    "knop_link": "producten.html"
+  },
+  "block_athena_422": {
+    "kop": "Bedrijf",
+    "foto_bestand": "slide-12.jpg",
+    "foto_alt": "&nbsp;",
+    "tekst": "<p>Facere quos officia dolores neque nobis asperiores Quas ea et est impedit.</p><p>Dignissimos eaque eum labore qui dignissimos excepturi consequatur quis ut maxime qui qui voluptates Omnis aspernatur minus debitis aperiam quia itaque est amet et voluptatem dolorum maiores.</p>",
+    "knop_tekst": "Bedrijf",
+    "knop_link": "bedrijf.html"
+  },
+  "block_athena_423": {
+    "kop": "Contact",
+    "foto_bestand": "slide-13.jpg",
+    "foto_alt": "&nbsp;",
+    "tekst": "<p>Voluptas temporibus accusamus esse magni voluptas deleniti reiciendis aperiam quidem eveniet. beatae eligendi autem rerum vero aliquam. autem aperiam magnam aut labore cumque explicabo laudantium architecto est. enim ipsam est et non harum veniam natus suscipit delectus qui et.</p>",
+    "knop_tekst": "Contact",
+    "knop_link": "contact.html"
+  },
+    "block_athena_on_image_07": {
+    "kop": "Inventore",
+    "tekst": "<p>Velit sed consequuntur molestiae quo rerum dicta eveniet eius rerum ut quam Sed quia quia ut ipsam qui et doloremque quasi consectetur rem voluptates <br>Earum modi rerum ad molestiae eaque totam qui hic officiis cupiditate itaque Sunt fuga quia omnis</p><p>Quia ut voluptatem qui Ut laborum maiores nulla suscipit Magni voluptas voluptate similique ut officiis repudiandae ipsa a a <br>Quia rerum magnam exercitationem nobis quae laborum est eveniet</p>"
+  },
+  "block_athena_511": {
+    "kop": "Ratione_EVEN_EVEN_EVEN_EVEN_EVEN_EVEN_EVEN_EVEN_EVEN_EVEN_EVEN_EVEN",
+    "foto_bestand": "faq.jpg",
+    "foto_alt": "altje",
+    "tekst": "<p>Amet esse delectus molestiae ut sint aut doloribus blanditiis delectus sit explicabo aspernatur quos Ipsa omnis aliquam dolorem et excepturi reiciendis est laudantium autem corrupti aperiam.</p><p>Natus rem reprehenderit possimus consequatur sint earum Nihil totam repellendus quas harum sapiente sint saepe iure autem commodi.</p><p>Facere quos officia dolores neque nobis asperiores Quas ea et est impedit.</p><p>Hallo Dignissimos eaque eum labore qui dignissimos excepturi consequatur quis ut maxime qui qui voluptates Omnis aspernatur minus debitis aperiam quia itaque est amet et voluptatem dolorum maiores.</p><p>Dignissimos eaque eum labore qui dignissimos excepturi consequatur quis ut maxime qui qui voluptates Omnis aspernatur minus debitis aperiam quia itaque est amet et voluptatem dolorum maiores.</p>"
+  },
+  "block_athena_521": {
+    "kop": "Inventore",
+    "tekst": "<p>Vitae atque sed nam qui odit sit magnam et sit recusandae iure rerum repellendus beatae Eos quis ut quidem dolorem et itaque nihil commodi est impedit ea</p><p>Consequuntur quo laudantium qui illum quo nesciunt delectus aut porro molestias consequuntur voluptatibus nam vel Inventore eum quibusdam praesentium non enim aperiam consequatur velit commodi porro porro esse suscipit non</p><p>Ad explicabo aut eligendi quos suscipit autem et et qui Beatae facilis perspiciatis ipsam neque qui aut doloribus qui enim ut Et sunt explicabo et est quia sit sint tenetur quis cumque aspernatur unde ea Ut dolorem et ut in omnis laborum quisquam asperiores et architecto odit illo</p>"
+  },
+  "block_athena_522": {
+    "kop": "Lorem ipsum dolor sit amet.",
+    "tekst": "<p>Duis vitae commodo magna. Nunc eget laoreet felis, nec varius lectus. Integer tristique erat elit, at placerat odio tristique sed.</p><p>Nunc fermentum, lacus eget ultrices consequat, massa ipsum sodales elit, sed vestibulum erat augue et enim. Fusce vitae lobortis tellus.Sed cursus nisi eget augue feugiat, vitae convallis sem faucibus. Aenean pharetra dui blandit mauris volutpat interdum.</p><p>Mauris ut euismod felis. Phasellus blandit, lacus et blandit faucibus, purus augue venenatis felis, non dictum neque enim vitae nulla.</p><p>Sed id bibendum magna. Nulla arcu libero, interdum nec mauris nec, scelerisque placerat velit. Fusce sit amet molestie ipsum, eu volutpat magna. Donec at eros dolor. Nam viverra vel nisi ac luctus.</p><p>Sed cursus nisi eget augue feugiat, vitae convallis sem faucibus. Aenean pharetra dui blandit mauris volutpat interdum.</p>"
+  },
+  "block_athena_611": {
+    "kop": "Fugit",
+    "tekst": "<p>Placeat molestiae numquam qui et <br>Nisi maxime esse et numquam eos est iure soluta accusantium aut</p><p>Sit expedita omnis corporis voluptatem debitis est quia et sit <br>quos pariatur quis odio Aut est et eius</p>"
+  },
+  "block_athena_612": {
+    "kop": "Sit",
+    "tekst": "<p>Temporibus non sunt nobis eos vel aut Ea aut ea dolorum pariatur dolores quam sapiente quod iusto et quibusdam qui molestias optio</p><p>Quam nesciunt id molestias aut iure et optio hic quibusdam fugit adipisci eaque Inventore sit minus quas voluptas omnis beatae</p>"
+  },
+  "block_athena_613": {
+    "kop": "Ab",
+    "tekst": "<p>Iusto asperiores qui dolores qui Nostrum similique quia minima soluta dicta rerum voluptate doloribus unde corporis ullam dolor</p><p>Vitae illum qui blanditiis error reiciendis dolor nihil Aut aut necessitatibus iste consequatur ea tempore ipsa rerum</p>"
+  },
+  "block_athena_614": {
+    "kop": "Est",
+    "tekst": "<p>Dicta provident dolorem aut reprehenderit aliquid eos voluptas et Molestias eum et sed sit voluptas repellat numquam libero</p><p>Et dolorem ut et repellendus sapiente quo aut et adipisci In dolorem optio est modi neque exercitationem eum facilis aut molestiae</p>"
+  },
+  "block_athena_621": {
+    "kop": "Ratione",
+    "tekst": "<p>Amet esse delectus molestiae ut sint aut doloribus blanditiis delectus sit explicabo aspernatur quos Ipsa omnis aliquam dolorem et excepturi reiciendis est laudantium autem corrupti aperiam.</p><p>Nihil totam repellendus quas harum sapiente sint saepe iure autem commodi.</p>"
+  },
+  "block_athena_622": {
+    "kop": "Animi",
+    "tekst": "<p>Facere quos officia dolores neque nobis asperiores Quas ea et est impedit</p><p>Dignissimos eaque eum labore qui dignissimos excepturi consequatur quis ut maxime qui qui voluptates Omnis aspernatur minus debitis aperiam quia itaque est amet et voluptatem dolorum maiores.</p>"
+  },
+  "block_athena_623": {
+    "kop": "Blanditiis",
+    "tekst": "<p>Voluptas temporibus accusamus esse magni voluptas deleniti reiciendis aperiam quidem eveniet.  beatae eligendi autem rerum vero aliquam.</p><p>Autem aperiam magnam aut labore cumque explicabo laudantium architecto est. enim ipsam est et non harum veniam natus suscipit delectus qui et.</p>"
+  },
+  "block_athena_624": {
+    "kop": "Fugit",
+    "tekst": "<p>Placeat molestiae numquam qui et <br>Nisi maxime esse et numquam eos est iure soluta accusantium aut</p><p>Sit expedita omnis corporis voluptatem debitis est quia et sit <br>quos pariatur quis odio Aut est et eius</p>"
+  },
+  "block_athena_625": {
+    "kop": "Sit",
+    "tekst": "<p>Temporibus non sunt nobis eos vel aut Ea aut ea dolorum pariatur dolores quam sapiente quod iusto et quibusdam qui molestias optio</p><p>Quam nesciunt id molestias aut iure et optio hic quibusdam fugit adipisci eaque Inventore sit minus quas voluptas omnis beatae</p>"
+  },
+  "block_athena_image_041": {
+    "foto_bestand": "kantoor.jpg",
+    "foto_alt": "&nbsp;"
+  },
+  "block_athena_image_051": {
+    "foto_bestand": "slide-01.jpg",
+    "foto_alt": "&nbsp;"
+  },
+  "block_athena_image_071": {
+    "foto_bestand": "slide-11.jpg",
+    "foto_alt": "&nbsp;"
+  },
+  "block_athena_image_072": {
+    "foto_bestand": "slide-12.jpg",
+    "foto_alt": "&nbsp;"
+  },
+  "block_athena_image_081": {
+    "foto_bestand": "lorem_city_5.jpg",
+    "foto_alt": "&nbsp;"
+  },
+  "block_athena_image_082": {
+    "foto_bestand": "lorem_8_klein.jpg",
+    "foto_alt": "&nbsp;"
+  },
+  "block_athena_image_083": {
+    "foto_bestand": "lorem_5_klein.jpg",
+    "foto_alt": "&nbsp;"
+  },
+  "block_athena_image_073": {
+    "foto_bestand": "slide-13.jpg",
+    "foto_alt": "&nbsp;"
+  },
+  "block_athena_image_074": {
+    "foto_bestand": "kantoor_02.jpg",
+    "foto_alt": "&nbsp;"
+  },
+  "block_athena_image_075": {
+    "foto_bestand": "kantoor_03.jpg",
+    "foto_alt": "&nbsp;"
+  },
+  "carousel_athena_011":  {
+    "fotos": [
+      {
+        "foto_bestand": "slide-01.jpg",
+        "foto_alt": "&nbsp;"
+      },
+      {
+        "foto_bestand": "slide-02.jpg",
+        "foto_alt": "&nbsp;"    },
+      {
+        "foto_bestand": "slide-03.jpg",
+        "foto_alt": "&nbsp;"
+      }
+    ]
+  },
+  "carousel_athena_101":  {
+    "fotos": [
+    {
+      "foto_bestand": "kantoor.jpg",
+      "foto_alt": "&nbsp;",
+      "foto_tekst": "<p>Cras justo odio, dapibus ac facilisis in, egestas eget quam.</p>"
+    },
+    {
+      "foto_bestand": "personeel.jpg",
+      "foto_alt": "&nbsp;",
+      "foto_tekst": "<p>Nullam id dolor id nibh ultricies vehicula ut id elit.</p>"
+    },
+    {
+      "foto_bestand": "werk.jpg",
+      "foto_alt": "&nbsp;",
+      "foto_tekst": "<p>Donec id elit non mi porta gravida at eget metus.</p>"
+    }
+  ]
+  },
+  "carousel_athena_201":  {
+    "fotos": [
+      {
+        "foto_bestand": "slide-01.jpg",
+        "foto_alt": "&nbsp;",
+        "foto_tekst": "<p>Cras justo odio, dapibus ac facilisis in, egestas eget quam.</p>"
+      },
+      {
+        "foto_bestand": "slide-02.jpg",
+        "foto_alt": "&nbsp;",
+        "foto_tekst": "<p>Nullam id dolor id nibh ultricies vehicula ut id elit.</p>"
+      },
+      {
+        "foto_bestand": "slide-03.jpg",
+        "foto_alt": "&nbsp;",
+        "foto_tekst": "<p>Donec id elit non mi porta gravida at eget metus.</p>"
+      }
+    ]
+  },
+  "jumbotron_athena_011":  {
+    "kop": "Bij Candy Business doen ze altijd wat ze beloven",
+    "tekst": "Voor alle snoep zijn wij de juiste groothandel voor zowel zakelijk als particulier. Specialist in snoep, zoetwaren, lolly's en chocolade. Al de volgende dag kunt u uw bestelling verwachten."
+  },
+  "card_helena_milli_011": {
+    "icon": "fas fa-thumbs-up",
+    "kop": "1. Blanditiis",
+    "tekst": "<p>Architecto quas dolorem culpa aut ab quos deserunt earum eum fuga cupiditate.</p><p>Earum soluta voluptatum perspiciatis nemo reprehenderit molestiae.</p>"
+  },
+  "card_helena_milli_012": {
+    "icon": "fas fa-thumbs-up",
+    "kop": "2. Aperiam",
+    "tekst": "<p>Veritatis laboriosam expedita ab eligendi expedita sed et cumque ab earum blanditiis fuga sed.</p><p>Distinctio consequatur quis sint laborum eius quo nisi ad ratione quasi quas.</p>"
+  },
+  "card_helena_milli_013": {
+    "icon": "fas fa-thumbs-up",
+    "kop": "3. Deserunt",
+    "tekst": "<p>Ea accusamus similique qui perspiciatis mollitia esse quos sequi commodi consequatur repellendus ipsum sed.</p><p>Et vel omnis laudantium et voluptas.</p>"
+  },
+  "card_helena_milli_021": {
+    "icon":  "fas fa-phone",
+    "kop":   "Telefoon +31101234567",
+    "tekst": ""
+  },
+  "card_helena_milli_022": {
+    "icon":  "fas fa-envelope",
+    "kop":   "Email",
+    "tekst": "<p>Info@CandyBusiness.nl</p>"
+  },
+  "card_helena_milli_023": {
+    "icon":  "fas fa-home",
+    "kop":   "Candy Business",
+    "tekst": "<p>Candystreet 21621,<br>3055 AP  Rotterdam.</p>"
+  },
+  "card_helena_milli_button_031": {
+    "icon": "fas fa-rocket",
+    "kop": "Nieuwsgierig?",
+    "tekst": "<p>Bekijk onze producten hier.</p>",
+    "knop_tekst": "Te doen",
+    "knop_link": "#"
+  },
+  "card_helena_milli_button_032" : {
+    "icon": "fab fa-twitter",
+    "kop": "Twitter @CandyBusiness",
+    "tekst": "",
+    "knop_tekst": "Te doen",
+    "knop_link": "#"    
+  },
+  "card_helena_kuler_voordelen_02": {
+    "kop": "Nieuwsgierig?",
+    "icon": "far fa-circle",
+    "voordelen": [
+      { "tekst": "Illo perferendis nesciunt repellat vitae." },
+      { "tekst": "Non fugiat amet voluptatibus." },
+      { "tekst": "Facere mollitia sequi in amet esse magnam." },
+      { "tekst": "Corporis placeat voluptas necessitatibus." },
+      { "tekst": "Temporibus non sunt nobis eos vel aut."}
+    ]
+  },
+  "athena_referentie_011": {
+    "naam": "Jaap Jansen",
+    "foto_bestand": "face_a.png",
+    "foto_alt": "&nbsp;",
+    "positie": "Directeur Jansen BV",
+    "tekst": "<p>Placeat molestiae numquam qui et Nisi maxime esse et numquam eos est iure soluta accusantium aut.</p><p>Sit expedita omnis corporis voluptatem debitis est quia et sit quos pariatur quis odio Aut est et eius.</p>"
+  },
+  "athena_referentie_012": {
+    "naam": "Diana Verkerk",
+    "foto_bestand": "face_f.png",
+    "foto_alt": "&nbsp;",
+    "positie": "Verkerk advocaten",
+    "tekst": "<p>Temporibus non sunt nobis eos vel aut Ea aut ea dolorum pariatur dolores quam sapiente quod iusto et quibusdam qui molestias optio.</p>"
+  },
+  "athena_referentie_013": {
+    "naam": "Kees Westra",
+    "foto_bestand": "face_u.png",
+    "foto_alt": "&nbsp;",
+    "positie": "Accountant Verbraak consultants",
+    "tekst": "<p>Amet esse delectus molestiae ut sint aut doloribus blanditiis delectus sit explicabo aspernatur quos Ipsa omnis aliquam dolorem et excepturi reiciendis est laudantium autem corrupti aperiam.</p><p>Natus rem reprehenderit possimus consequatur sint earum Nihil totam repellendus.</p>"
+  },
+  "athena_werknemer_011": {
+    "naam": "Marloes Koning",
+    "foto_bestand": "face_j.png",
+    "foto_alt": "&nbsp;",
+    "positie": "Secretariaat",
+    "tekst": "<p>Temporibus non sunt nobis eos vel aut Ea aut ea dolorum pariatur dolores quam sapiente quod iusto et quibusdam qui molestias optio.</p>",
+    "sociaal": [
+      {
+        "sociaal_icon": "fab fa-twitter",
+        "sociaal_link": "#"
+      },
+      {
+        "sociaal_icon": "fab fa-facebook-f",
+        "sociaal_link": "#"
+      },
+      {
+        "sociaal_icon": "fab fa-google-plus-g",
+        "sociaal_link": "#"
+      }
+    ]
+  },  
+  "athena_werknemer_012": {  
+    "naam": "Bram Scherpenzeel",
+    "foto_bestand": "face_n.png",
+    "foto_alt": "&nbsp;",
+    "positie": "Administratie",
+    "tekst": "<p>Ad explicabo aut eligendi quos suscipit autem et et qui Beatae facilis perspiciatis ipsam neque qui aut doloribus qui enim ut Et sunt explicabo et est quia sit sint tenetur quis cumque aspernatur unde ea Ut dolorem et ut in omnis laborum quisquam asperiores et architecto odit illo.</p>",
+    "sociaal": []
+  },
+  "athena_werknemer_013": {
+    "naam": "Bianca van Dijk",
+    "foto_bestand": "face_d.png",
+    "foto_alt": "&nbsp;",
+    "positie": "Accountmanager",
+    "tekst": "<p>Placeat molestiae numquam qui et Nisi maxime esse et numquam eos est iure soluta accusantium aut.</p><p>Sit expedita omnis corporis voluptatem debitis est quia et sit quos pariatur quis odio Aut est et eius.</p>",
+    "sociaal": [
+      {
+        "sociaal_icon": "fab fa-twitter",
+        "sociaal_link": "#"
+      },
+      {
+        "sociaal_icon": "fab fa-facebook-f",
+        "sociaal_link": "#"
+      },
+      {
+        "sociaal_icon": "fab fa-stack-overflow",
+        "sociaal_link": "#"
+      }
+    ]
+  },  
+  "appbar_athena_01_icons": {
+    "sociaal": [
+      {
+        "sociaal_icon": "fas fa-envelope",
+        "sociaal_link": "#"
+      },
+      {
+        "sociaal_icon": "fab fa-twitter",
+        "sociaal_link": "#"
+      }
+    ]
+  },
+  "navbar_athena_10": {
+    "sociaal": [
+      {
+        "sociaal_icon": "fab fa-facebook-f",
+        "sociaal_link": "#"
+      },
+      {
+        "sociaal_icon": "fab fa-twitter",
+        "sociaal_link": "#"
+      }
+    ],  
+    "links": [
+      {
+        "nav_tekst": "Home",
+        "nav_link": "index.html",
+        "show_only_mobile": false      
+      },
+      {
+        "nav_tekst": "Producten",
+        "nav_link": "producten.html",
+        "show_only_mobile": false      
+      },
+      {
+        "nav_tekst": "Bedrijf",
+        "nav_link": "bedrijf.html",
+        "show_only_mobile": false      
+      },
+      {
+        "nav_tekst": "Contact",
+        "nav_link": "contact.html",
+        "show_only_mobile": false      
+      }
+    ]
+  },
+  "appbar_athena_10_icons": {
+    "sociaal": [
+      {
+        "sociaal_icon": "fab fa-facebook-f",
+        "sociaal_link": "#"
+      },
+      {
+        "sociaal_icon": "fab fa-twitter",
+        "sociaal_link": "#"
+      }
+    ]
+  },
+  "navbar_athena_07":  {
+    "links": [
+      {
+        "nav_tekst": "Producten",
+        "nav_link": "#section1"
+      },
+      {
+        "nav_tekst": "Voordelen",
+        "nav_link": "#section2"
+      },
+      {
+        "nav_tekst": "Bedrijf",
+        "nav_link": "#section3"
+      },
+      {
+        "nav_tekst": "Contact",
+        "nav_link": "#section4"
+      }
+    ]
+  }
+}
