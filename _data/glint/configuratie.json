@@ -1,8 +1,8 @@
 {
-  "glint_site_testen": true,
+  "glint_site_testen": false,
   "glint_url_abs": "http://www.guasi.mobi/pwa_01/",
   "glint_url_rel": "",
-  "glint_use_art": true,
+  "glint_use_art": false,
   "glint_use_manifest": true,
   "glint_meta_robots": "INDEX, FOLLOW",
   "glint_merk_tekst": "Candy Business",
