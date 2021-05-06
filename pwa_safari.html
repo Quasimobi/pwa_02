@@ -1,0 +1,18 @@
+---
+layout: default_helena_10G
+---
+
+<!--
+https://stackoverflow.com/questions/10527983/best-way-to-detect-mac-os-x-or-windows-computers-with-javascript-or-jquery
+-->
+
+<script>
+  function isSafari() {
+    var isSafari = navigator.vendor && navigator.vendor.indexOf('Apple') > -1 &&
+                   navigator.userAgent &&
+                   navigator.userAgent.indexOf('CriOS') == -1 &&
+                   navigator.userAgent.indexOf('FxiOS') == -1;
+    return isSafari;
+  }
+  alert(isSafari());
+</script>
