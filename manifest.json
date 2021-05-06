@@ -5,18 +5,29 @@
   "theme_color":       "#66B2CA",
   "background_color":  "#66B2CA",
   "display":           "standalone",      
-  "description":       "Websites, die schitteren",      
+  "description":       "Websites, die schitteren",  
+  "orientation":       "any",
+
   "icons": [
     {
       "src": "assets/icons/glint-192x192.png",
       "sizes": "192x192",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any"          
     },
     {
       "src": "assets/icons/glint-512x512.png",
       "sizes": "512x512",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any"          
+    },
+    {
+      "src": "assets/icons/glint-mask-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
     }
   ]
 }
+
   
