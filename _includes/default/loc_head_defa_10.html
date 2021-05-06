@@ -4,46 +4,60 @@
 <!-- ======================================================================= -->
 {% endcomment %}
 
-<!-- TODO: 2. Snappen wat het inhoudt en iconen maken, komen uit: https://v5.getbootstrap.com, zie techniek/pwa /
-<link rel="icon" href="/docs/5.0/assets/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
-<link rel="icon" href="/docs/5.0/assets/img/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
--->      
-<!-- Zie  https://developer.yoast.com/blog/safari-pinned-tab-icon-mask-icon/ --> 
-<link rel="mask-icon" href="{{ loc_url_rel }}{{ loc_path_icons }}safari-pinned-tab.svg" color="#2E354E">
+<link rel="icon" href="assets/icons/favicon-32x32.png" sizes="32x32" type="image/png">
+<link rel="icon" href="assets/icons/favicon-16x16.png" sizes="16x16" type="image/png">
 
-<!-- Start Genereert met t_generate_social_meta -->
-<link rel="apple-touch-icon"     href="assets/icons/glint-192x192.png" sizes="192x192">
-<meta name="theme-color"         content="#2E354E">
+<link rel="apple-touch-icon"     href="assets/icons/apple-touch-icon.png" sizes="192x192">
+<link rel="mask-icon"            href="assets/icons/safari-pinned-tab.svg" color="#66B2CA">
+<meta name="theme-color"         content="#66B2CA">
 
 <!-- Twitter -->
 <meta name="twitter:card"        content="summary">
 <meta name="twitter:site"        content="@bauke_mobi">
 <meta name="twitter:title"       content="Glint.mobi">
 <meta name="twitter:description" content="Snelle, veilige en goedkope websites, die schitteren.">
-<meta name="twitter:image"       content="http://127.0.0.1:4000/assets/images/twitter_summary.png">
-<meta name="twitter:image:alt"   content="Websites, die schitteren" />
+<meta name="twitter:image"       content="https://quasimobi.github.io/pwa_02/assets/icons/twitter_summary.png">
+<meta name="twitter:image:alt"   content="Websites, die schitteren">
 
 <!-- Facebook -->
 <meta property="og:title"        content="Glint.mobi">
 <meta property="og:type"         content="website">
 <meta property="og:url"          content="http://www.glint.mobi/websites-schitterend/">
-<meta property="og:image"        content="http://127.0.0.1:4000/assets/images/twitter_summary.png">
+<meta property="og:image"        content="https://quasimobi.github.io/pwa_02/assets/icons/twitter_summary.png">
 <meta property="og:description"  content="Snelle, veilige en goedkope websites, die schitteren.">
 <meta property="og:image:type"   content="image/png">
 <meta property="og:image:width"  content="680">
 <meta property="og:image:height" content="357">
-<!-- Einde Genereert met t_generate_social_meta -->
 
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "Corporation",
-  "name":           "Glint.mobi",
-  "alternateName":  "Centobytes",      
-  "url":            "http://www.glint.mobi",
-  "logo":           "http://127.0.0.1:4000/assets/icons/glint-512x512.png"
+  "name":           "Candy Business",
+  "url":            "https://quasimobi.github.io/pwa_02/",
+  "logo":           "https://quasimobi.github.io/pwa_02/assets/icons/glint-144x144.png"
 }
 </script>
+      
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">    
+
+<!-- Splash-screens volgens: https://appsco.pe/developer/splash-screens -->
+<link href="assets/icons/pwa/splash_iphonex.png" media="(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3)" rel="apple-touch-startup-image" />
+<link href="assets/icons/pwa/splash_iphone6.png" media="(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image" />
+<link href="assets/icons/pwa/splash_iphone5.png" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image" />
+<link href="assets/icons/pwa/splash_iphoneplus.png" media="(device-width: 621px) and (device-height: 1104px) and (-webkit-device-pixel-ratio: 3)" rel="apple-touch-startup-image" />
+<link href="assets/icons/pwa/splash_iphonexr.png" media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image" />
+<link href="assets/icons/pwa/splash_iphonexsmax.png" media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3)" rel="apple-touch-startup-image" />
+<link href="assets/icons/pwa/splash_ipad.png" media="(device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image" />
+<link href="assets/icons/pwa/splash_ipadpro1.png" media="(device-width: 834px) and (device-height: 1112px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image" />
+<link href="assets/icons/pwa/splash_ipadpro2.png" media="(device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image" />
+<link href="assets/icons/pwa/splash_ipadpro3.png" media="(device-width: 834px) and (device-height: 1194px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image" />
+
+<!-- Microsoft -->       
+<meta name="msapplication-TileImage"     content="assets/icons/glint-144x144.png">
+<meta name="msapplication-TileColor"     content="#66B2CA">    
+  
   
 {% if loc_site_testen %}
   <link rel="stylesheet" href="{{ loc_url_rel }}{{ loc_path_css }}glint_strap.css">

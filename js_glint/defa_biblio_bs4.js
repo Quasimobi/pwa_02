@@ -427,9 +427,23 @@ function toon_bedrijf(json_bedrijf) {
 }
 /* ======================================================================= */
 /**
+ * @name generate_pwa_head_01
+ */
+function generate_pwa_head_01(json_pwa_head_01, full_path_rel_icons) {
+
+  let tpl_pwa_01 = `  
+    <!-- Extra Iconen BS5 beta 3 -->
+    <link rel="icon" href="${ full_path_rel_icons }${ json_pwa_head_01.glint_favicon_32_32}" sizes="32x32" type="image/png">
+    <link rel="icon" href="${ full_path_rel_icons }${ json_pwa_head_01.glint_favicon_16_16}" sizes="16x16" type="image/png">
+  `;
+
+  return tpl_pwa_01;
+}  
+/* ======================================================================= */
+/**
  * @name generate_pwa_android_01
  */
-function generate_pwa_android_01(json_pwa_all_01, json_pwa_apple_01, full_path_rel_icons) {
+function generate_pwa_android_01(json_pwa_android_01, full_path_rel_icons) {
 
   let tpl_pwa_01 = `
     <!-- Wat heb ik nodig om de website als pwa te laten functioneren onder Android? -->   
@@ -439,19 +453,47 @@ function generate_pwa_android_01(json_pwa_all_01, json_pwa_apple_01, full_path_r
 }
 /* ======================================================================= */
 /**
- * @name generate_pwa_apple_01
+ * @name generate_pwa_apple_01B
+ * @description Nodig voor Bootstrap 5
  */
-function generate_pwa_apple_01(json_pwa_all_01, json_pwa_apple_01, full_path_rel_icons) {
+function generate_pwa_apple_01B(json_pwa_apple_01, json_manifest_01, full_path_rel_icons) {
 
   let tpl_pwa_01 = `
     
     <!-- https://web.dev/apple-touch-icon/?utm_source=lighthouse&utm_medium=devtools -->
     <link rel="apple-touch-icon"     href="${ full_path_rel_icons }${ json_pwa_apple_01.glint_apple_touch_icon }" sizes="192x192">
 
-    <link rel="mask-icon"            href="${ full_path_rel_icons }${ json_pwa_apple_01.glint_safari_pinned_tab }" color="${ json_pwa_all_01.glint_manifest_theme_color }">
+    <link rel="mask-icon"            href="${ full_path_rel_icons }${ json_pwa_apple_01.glint_safari_pinned_tab }" color="${ json_manifest_01.glint_manifest_theme_color }">
 
     <!-- Komt in de layout gelijk na de iconen te staan, moet bovenin loc_head_defa_10.html -->
-    <meta name="theme-color"         content="${ json_pwa_all_01.glint_manifest_theme_color }">
+    <meta name="theme-color"         content="${ json_manifest_01.glint_manifest_theme_color }">
+  `;
+
+  return tpl_pwa_01;
+}
+/* ======================================================================= */
+/**
+ * @name generate_pwa_apple_01P
+ * @description Aanvulling op generate_pwa_apple_01B met extra's voor PWA
+ */
+ function generate_pwa_apple_01P( json_pwa_apple_01, full_path_rel_icons) {
+
+  let tpl_pwa_01 = `
+    <meta name="apple-mobile-web-app-capable" content="${ json_pwa_apple_01.glint_apple_web_app_capable }">
+    <meta name="apple-mobile-web-app-status-bar-style" content="${ json_pwa_apple_01.glint_apple_status_bar_style }">    
+
+    <!-- Splash-screens volgens: https://appsco.pe/developer/splash-screens -->
+    <link href="${ full_path_rel_icons }pwa/${ json_pwa_apple_01.glint_apple_splash_iphonex }" media="(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3)" rel="apple-touch-startup-image" />
+    <link href="${ full_path_rel_icons }pwa/${ json_pwa_apple_01.glint_apple_splash_iphone6 }" media="(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image" />
+    <link href="${ full_path_rel_icons }pwa/${ json_pwa_apple_01.glint_apple_splash_iphone5 }" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image" />
+    <link href="${ full_path_rel_icons }pwa/${ json_pwa_apple_01.glint_apple_splash_iphoneplus }" media="(device-width: 621px) and (device-height: 1104px) and (-webkit-device-pixel-ratio: 3)" rel="apple-touch-startup-image" />
+    <link href="${ full_path_rel_icons }pwa/${ json_pwa_apple_01.glint_apple_splash_iphonexr }" media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image" />
+    <link href="${ full_path_rel_icons }pwa/${ json_pwa_apple_01.glint_apple_splash_iphonexsmax }" media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3)" rel="apple-touch-startup-image" />
+    <link href="${ full_path_rel_icons }pwa/${ json_pwa_apple_01.glint_apple_splash_ipad }" media="(device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image" />
+    <link href="${ full_path_rel_icons }pwa/${ json_pwa_apple_01.glint_apple_splash_ipadpro1 }" media="(device-width: 834px) and (device-height: 1112px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image" />
+    <link href="${ full_path_rel_icons }pwa/${ json_pwa_apple_01.glint_apple_splash_ipadpro2 }" media="(device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image" />
+    <link href="${ full_path_rel_icons }pwa/${ json_pwa_apple_01.glint_apple_splash_ipadpro3 }" media="(device-width: 834px) and (device-height: 1194px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image" />
+
   `;
 
   return tpl_pwa_01;
@@ -460,29 +502,37 @@ function generate_pwa_apple_01(json_pwa_all_01, json_pwa_apple_01, full_path_rel
 /**
  * @name generate_pwa_manifest_01
  */
-function generate_pwa_manifest_01(json_pwa_all_01, json_pwa_manifest_01, full_path_rel_icons) {
+function generate_pwa_manifest_01( json_manifest_01, json_twitter_01, full_path_rel_icons) {
 
   let tpl_pwa_01 = `
-
     {
-      <!-- manifest.json -->
-      "name":              "${ json_pwa_all_01.glint_twitter_title }",
-      "short_name":        "${ json_pwa_manifest_01.glint_manifest_short_name }",
-      "start_url":         "${ json_pwa_manifest_01.glint_manifest_start_url }",
-      "theme_color":       "${ json_pwa_all_01.glint_manifest_theme_color }",
-      "background_color":  "${ json_pwa_manifest_01.glint_manifest_bg_color }",
-      "display":           "${ json_pwa_manifest_01.glint_manifest_display }",      
-      "description":       "${ json_pwa_manifest_01.glint_manifest_description }",      
+      "name":              "${ json_twitter_01.glint_twitter_title }",
+      "short_name":        "${ json_manifest_01.glint_manifest_short_name }",
+      "start_url":         "${ json_manifest_01.glint_manifest_start_url }",
+      "theme_color":       "${ json_manifest_01.glint_manifest_theme_color }",
+      "background_color":  "${ json_manifest_01.glint_manifest_bg_color }",
+      "display":           "${ json_manifest_01.glint_manifest_display }",      
+      "description":       "${ json_manifest_01.glint_manifest_description }",  
+      "orientation":       "${ json_manifest_01.glint_manifest_orientation }",
+
       "icons": [
         {
-          "src": "${ full_path_rel_icons }${ json_pwa_all_01.glint_manifest_icon_192 }",
+          "src": "${ full_path_rel_icons }${ json_manifest_01.glint_manifest_icon_192 }",
           "sizes": "192x192",
-          "type": "image/png"
+          "type": "image/png",
+          "purpose": "any"          
         },
         {
-          "src": "${ full_path_rel_icons }${ json_pwa_all_01.glint_manifest_icon_512 }",
+          "src": "${ full_path_rel_icons }${ json_manifest_01.glint_manifest_icon_512 }",
           "sizes": "512x512",
-          "type": "image/png"
+          "type": "image/png",
+          "purpose": "any"          
+        },
+        {
+          "src": "${ full_path_rel_icons }${ json_manifest_01.glint_manifest_mask_icon_192 }",
+          "sizes": "192x192",
+          "type": "image/png",
+          "purpose": "maskable"
         }
       ]
     }
@@ -494,54 +544,54 @@ function generate_pwa_manifest_01(json_pwa_all_01, json_pwa_manifest_01, full_pa
 /**
  * @name generate_pwa_ms_01
  */
-function generate_pwa_ms_01(json_pwa_all_01, json_pwa_ms_01, full_path_rel_icons) {
+function generate_pwa_ms_01( json_pwa_ms_01, json_schema_01, json_manifest_01, full_path_rel_icons) {
 
   let tpl_pwa_01 = `
  
-    <!-- pwa Microsoft -->
     <!-- Wat heb ik nodig om de website als pwa te laten functioneren onder Microsoft? -->       
-
+    <meta name="msapplication-TileImage"     content="${ full_path_rel_icons }${ json_schema_01.glint_schema_logo_01 }">
+    <meta name="msapplication-TileColor"     content="${ json_manifest_01.glint_manifest_theme_color }">    
   `;
 
   return tpl_pwa_01;
 }
 /* ======================================================================= */
 /**
- * @name generate_pwa_og_01
+ * @name generate_og_01
  */
-function generate_pwa_og_01(json_pwa_all_01, json_pwa_og_01, full_path_abs_icons) {
+function generate_og_01( json_og_01, json_twitter_01, full_path_abs_icons) {
 
   let tpl_pwa_01 = `
     
 
     <!-- Facebook -->
-    <meta property="og:title"        content="${ json_pwa_all_01.glint_twitter_title }">
-    <meta property="og:type"         content="${ json_pwa_og_01.glint_og_type }">
-    <meta property="og:url"          content="${ json_pwa_og_01.glint_og_url }">
-    <meta property="og:image"        content="${ full_path_abs_icons }${ json_pwa_all_01.glint_twitter_image }">
-    <meta property="og:description"  content="${ json_pwa_all_01.glint_twitter_description }">
-    <meta property="og:image:type"   content="${ json_pwa_og_01.glint_og_image_type }">
-    <meta property="og:image:width"  content="${ json_pwa_og_01.glint_og_image_width }">
-    <meta property="og:image:height" content="${ json_pwa_og_01.glint_og_image_height }">
+    <meta property="og:title"        content="${ json_twitter_01.glint_twitter_title }">
+    <meta property="og:type"         content="${ json_og_01.glint_og_type }">
+    <meta property="og:url"          content="${ json_og_01.glint_og_url }">
+    <meta property="og:image"        content="${ full_path_abs_icons }${ json_twitter_01.glint_twitter_image }">
+    <meta property="og:description"  content="${ json_twitter_01.glint_twitter_description }">
+    <meta property="og:image:type"   content="${ json_og_01.glint_og_image_type }">
+    <meta property="og:image:width"  content="${ json_og_01.glint_og_image_width }">
+    <meta property="og:image:height" content="${ json_og_01.glint_og_image_height }">
   `;
 
   return tpl_pwa_01;
 }
 /* ======================================================================= */
 /**
- * @name generate_pwa_twitter_01
+ * @name generate_twitter_01
  */
-function generate_pwa_twitter_01(json_pwa_all_01, json_pwa_twitter_01, full_path_abs_icons) {
+function generate_twitter_01( json_twitter_01, full_path_abs_icons) {
 
   let tpl_pwa_01 = `
     
     <!-- Twitter -->
-    <meta name="twitter:card"        content="${ json_pwa_twitter_01.glint_twitter_card }">
-    <meta name="twitter:site"        content="${ json_pwa_twitter_01.glint_twitter_site }">
-    <meta name="twitter:title"       content="${ json_pwa_all_01.glint_twitter_title }">
-    <meta name="twitter:description" content="${ json_pwa_all_01.glint_twitter_description }">
-    <meta name="twitter:image"       content="${ full_path_abs_icons }${ json_pwa_all_01.glint_twitter_image }">
-    <meta name="twitter:image:alt"   content="${ json_pwa_all_01.glint_twitter_image_alt }">
+    <meta name="twitter:card"        content="${ json_twitter_01.glint_twitter_card }">
+    <meta name="twitter:site"        content="${ json_twitter_01.glint_twitter_site }">
+    <meta name="twitter:title"       content="${ json_twitter_01.glint_twitter_title }">
+    <meta name="twitter:description" content="${ json_twitter_01.glint_twitter_description }">
+    <meta name="twitter:image"       content="${ full_path_abs_icons }${ json_twitter_01.glint_twitter_image }">
+    <meta name="twitter:image:alt"   content="${ json_twitter_01.glint_twitter_image_alt }">
   `;
 
   return tpl_pwa_01;
@@ -549,8 +599,8 @@ function generate_pwa_twitter_01(json_pwa_all_01, json_pwa_twitter_01, full_path
 /* ======================================================================= */
 /**
  * @name generate_schema_01
- */
-function generate_schema_01(json_pwa_all_01, json_pwa_schema_01, full_path_abs_icons) {
+*/
+function generate_schema_01(json_bedrijf, json_configuratie,  json_schema_01, full_path_abs_icons) {
 
   let tpl_pwa_01 = `
 
@@ -558,21 +608,22 @@ function generate_schema_01(json_pwa_all_01, json_pwa_schema_01, full_path_abs_i
     {
       "@context": "https://schema.org",
       "@type": "Corporation",
-      "name":           "${ json_pwa_schema_01.glint_schema_name }",
-      "alternateName":  "${ json_pwa_schema_01.glint_schema_alternateName }",      
-      "url":            "${ json_pwa_schema_01.glint_schema_url }",
-      "logo":           "${ full_path_abs_icons }${ json_pwa_schema_01.glint_schema_logo }"
+      "name":           "${ json_bedrijf.company_name_bedrijf }",
+      "url":            "${ json_configuratie.glint_url_abs }",
+      "logo":           "${ full_path_abs_icons }${ json_schema_01.glint_schema_logo_01 }"
     }
     </script>
   `;
 
   return tpl_pwa_01;
 }
+
+
 /* ======================================================================= */
 /**
  * @name generate_schema_02
  */
-function generate_schema_02(json_pwa_all_01, json_pwa_schema_02, full_path_abs_icons) {
+function generate_schema_02(json_bedrijf, json_configuratie,  json_schema_01, full_path_abs_icons) {
 
   let tpl_pwa_01 = `
 
@@ -580,15 +631,14 @@ function generate_schema_02(json_pwa_all_01, json_pwa_schema_02, full_path_abs_i
     {
       "@context": "https://schema.org",
       "@type": "Corporation",
-      "name":           "${ json_pwa_schema_02.glint_schema_name }",
-      "alternateName":  "${ json_pwa_schema_02.glint_schema_alternateName }",      
-      "url":            "${ json_pwa_schema_02.glint_schema_url }",
-      "logo":           "${ full_path_abs_icons }${ json_pwa_schema_02.glint_schema_logo }",
+      "name":           "${ json_bedrijf.company_name_bedrijf }",
+      "url":            "${ json_configuratie.glint_url_abs }",
+      "logo":           "${ full_path_abs_icons }${ json_schema_01.glint_schema_logo_01 }",      
       "contactPoint": {
         "@type": "ContactPoint",      
-        "telephone":         "${ json_pwa_schema_02.glint_schema_telephone }",      
-        "contactType":       "${ json_pwa_schema_02.glint_schema_contactType }",
-        "areaServed":        "${ json_pwa_schema_02.glint_schema_areaServed }"
+        "telephone":         "${ json_bedrijf.adres_telefoon_bedrijf }",      
+        "contactType":       "${ json_schema_01.glint_schema_contactType }",
+        "areaServed":        "${ json_schema_01.glint_schema_areaServed }"
        }
     }
     </script>
@@ -598,12 +648,122 @@ function generate_schema_02(json_pwa_all_01, json_pwa_schema_02, full_path_abs_i
 }
 /* ======================================================================= */
 /**
+ * @name generate_bootstrap_01
+ */
+ function generate_bootstrap_01(json_pwa_head_01, 
+                                json_pwa_apple_01,
+                                json_twitter_01,
+                                json_og_01,
+                                json_bedrijf,
+                                json_configuratie,
+                                json_schema_01,
+                                full_path_rel_icons,
+                                full_path_abs_icons)
+{
+
+  let tpl_pwa_01 = `
+    <!-- Aanvulling helena header met inhoud BS5 header -->
+    ${generate_pwa_head_01( json_pwa_head_01, full_path_rel_icons)}
+    ${generate_pwa_apple_01B( json_pwa_apple_01, json_manifest_01, full_path_rel_icons)}  
+    ${generate_twitter_01( json_twitter_01, full_path_abs_icons)}  
+    ${generate_og_01( json_og_01, json_twitter_01, full_path_abs_icons)}
+    ${generate_schema_01(json_bedrijf, json_configuratie,  json_schema_01, full_path_abs_icons)}
+ `;
+
+  return tpl_pwa_01;
+}  
+/* ======================================================================= */
+/**
+ * @name generate_pwa_totaal_01
+ */
+function generate_pwa_totaal_01(json_pwa_android_01, 
+                                json_pwa_apple_01,
+                                json_pwa_ms_01,
+                                json_schema_01,
+                                json_manifest_01,
+                                full_path_rel_icons,
+                                full_path_abs_icons)
+{
+
+  let tpl_pwa_01 = `
+    <!-- PWA aanvulling op de BS5 header aanvulling (generate_bootstrap_01) -->  
+    ${generate_pwa_apple_01P( json_pwa_apple_01, full_path_rel_icons)}    
+    ${generate_pwa_ms_01( json_pwa_ms_01, json_schema_01, json_manifest_01, full_path_rel_icons)}    
+
+  `;
+
+  return tpl_pwa_01;
+}  
+/* ======================================================================= */
+function generate_style_01() {
+
+  let gen_style_01 = `  
+    <style>
+      html {
+        padding: 30px 10px;
+        font-size: 20px;
+        line-height: 1.4;
+        color: #737373;
+        background: #f0f0f0;
+        -webkit-text-size-adjust: 100%;
+        -ms-text-size-adjust: 100%;
+      }
+
+      html,
+      input {
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      }
+
+      body {
+        max-width: 700px;
+        _width: 700px;
+        padding: 30px 20px 50px;
+        border: 1px solid #b3b3b3;
+        border-radius: 4px;
+        margin: 0 auto;
+        box-shadow: 0 1px 10px #a7a7a7, inset 0 1px 0 #fff;
+        background: #fcfcfc;
+      }
+
+      h1 {
+        margin: 0 10px;
+        font-size: 50px;
+        text-align: center;
+      }
+
+      h1 span {
+        color: #bbb;
+      }
+
+      h3 {
+        margin: 1.5em 0 0.5em;
+      }
+
+      p {
+        margin: 1em 0;
+      }
+
+      ul {
+        padding: 0 0 0 40px;
+        margin: 1em 0;
+      }
+
+      .container {
+        max-width: 580px;
+        _width: 580px;
+        margin: 0 auto;
+      }
+    </style>
+  `;
+
+  return gen_style_01;
+}
+/* ======================================================================= */
+/**
  * @name generate_404_01
  * @function
  * @global
  * @param  {} json_configuratie
- * @description Zelfde opmaak als form_succes.
- * @description 15 juli 2019, moet netjes zijn.
  */
 function generate_404_01(json_configuratie) {
 
@@ -611,64 +771,9 @@ function generate_404_01(json_configuratie) {
     <!DOCTYPE html>
     <html lang="en">
         <head>
-            <meta charset="utf-8">
-            <title>Pagina niet gevonden&nbsp;:(</title>
-            <style>
-                html {
-                  padding: 30px 10px;
-                  font-size: 20px;
-                  line-height: 1.4;
-                  color: #737373;
-                  background: #f0f0f0;
-                  -webkit-text-size-adjust: 100%;
-                  -ms-text-size-adjust: 100%;
-                }
-
-                html,
-                input {
-                  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-                }
-
-                body {
-                  max-width: 700px;
-                  _width: 700px;
-                  padding: 30px 20px 50px;
-                  border: 1px solid #b3b3b3;
-                  border-radius: 4px;
-                  margin: 0 auto;
-                  box-shadow: 0 1px 10px #a7a7a7, inset 0 1px 0 #fff;
-                  background: #fcfcfc;
-                }
-
-                h1 {
-                  margin: 0 10px;
-                  font-size: 50px;
-                  text-align: center;
-                }
-
-                h1 span {
-                  color: #bbb;
-                }
-
-                h3 {
-                  margin: 1.5em 0 0.5em;
-                }
-
-                p {
-                  margin: 1em 0;
-                }
-
-                ul {
-                  padding: 0 0 0 40px;
-                  margin: 1em 0;
-                }
-
-                .container {
-                  max-width: 580px;
-                  _width: 580px;
-                  margin: 0 auto;
-                }
-            </style>
+          <meta charset="utf-8">
+          <title>Pagina niet gevonden&nbsp;:(</title>
+          ${generate_style_01()}              
         </head>
         <body>
           <div class="container">
@@ -694,74 +799,16 @@ function generate_404_01(json_configuratie) {
  * @function
  * @global
  * @param  {} json_configuratie
- * @description Zelfde opmaak als form_succes, 404
- * @description 15 juli 2019, moet netjes zijn.
  */
-// TODO: geheel netjes maken?
 function generate_offline_01(json_configuratie) {
 
   let tpl_offline = `
     <!DOCTYPE html>
     <html lang="en">
         <head>
-            <meta charset="utf-8">
-            <title>U bent (nu) niet verbonden met het internet&nbsp;:(</title>
-            <style>
-                html {
-                  padding: 30px 10px;
-                  font-size: 20px;
-                  line-height: 1.4;
-                  color: #737373;
-                  background: #f0f0f0;
-                  -webkit-text-size-adjust: 100%;
-                  -ms-text-size-adjust: 100%;
-                }
-
-                html,
-                input {
-                  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-                }
-
-                body {
-                  max-width: 700px;
-                  _width: 700px;
-                  padding: 30px 20px 50px;
-                  border: 1px solid #b3b3b3;
-                  border-radius: 4px;
-                  margin: 0 auto;
-                  box-shadow: 0 1px 10px #a7a7a7, inset 0 1px 0 #fff;
-                  background: #fcfcfc;
-                }
-
-                h1 {
-                  margin: 0 10px;
-                  font-size: 50px;
-                  text-align: center;
-                }
-
-                h1 span {
-                  color: #bbb;
-                }
-
-                h3 {
-                  margin: 1.5em 0 0.5em;
-                }
-
-                p {
-                  margin: 1em 0;
-                }
-
-                ul {
-                  padding: 0 0 0 40px;
-                  margin: 1em 0;
-                }
-
-                .container {
-                  max-width: 580px;
-                  _width: 580px;
-                  margin: 0 auto;
-                }
-            </style>
+           <meta charset="utf-8">
+           <title>U bent (nu) niet verbonden met het internet&nbsp;:(</title>
+           ${generate_style_01()}
         </head>
         <body>
           <div class="container">

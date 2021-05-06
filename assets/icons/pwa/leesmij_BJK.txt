@@ -1,0 +1,2 @@
+Splash icons gegenereerd met https://appsco.pe/developer/splash-screens
+Gebruikt hier heb ik hiervoor: glint-iphone.jpg
