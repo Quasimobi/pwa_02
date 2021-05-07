@@ -1,0 +1,45 @@
+---
+layout: default_helena_10G_LINK
+---
+
+{% comment %}
+<!-- ======================================================================= -->
+<!-- ======================================================================= -->
+{% endcomment %}
+
+{% include default/default_helena_20G_var_lite_LINK.html %}
+{% include default/default_helena_01G_content_LINK.html %}
+{% include default/default_helena_01G_pwa_content.html %}
+
+<div class="container">
+  {% include navigation.html %}
+
+  <br><br><br><br>
+  <br><br><br><br>
+  <h1>pwa_install X 44</h1>
+
+  <style>
+    .safari_no {
+      display: none;
+    }
+  </style>  
+
+  <script>
+    var isSafari = isSafari();
+    if (isSafari) {      
+      document.getElementById('installButton').classList.add("safari_no");
+    }    
+    const ref = document.getElementById("installComponent");
+    // pwa_install_explainer komt uit defa_data_bs4.js
+    ref.explainer=pwa_install_explainer;
+    ref.installbuttontext="Installeren"
+    ref.cancelbuttontext="Onderbreken"  
+  </script>
+
+</div>
+
+{% comment %}
+<!-- ======================================================================= -->
+<!-- ======================================================================= -->
+{% endcomment %}
+

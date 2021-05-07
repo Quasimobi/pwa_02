@@ -3,6 +3,18 @@
 <!-- ======================================================================= -->
 {% endcomment %}
 
+<script>
+  // Zie voor docu: builder_pwa.txt
+  var yesSafari = isSafari();
+  if (yesSafari) {      
+    document.getElementById('installButton').classList.add("safari_no");
+  }    
+  const ref = document.getElementById("installComponent");
+  ref.explainer=pwa_install_explainer;
+  ref.installbuttontext="Installeren"
+  ref.cancelbuttontext="Onderbreken"  
+</script>  
+
 {% include/default/default_helena_01G_vendor.html %}
 
 {% comment %}

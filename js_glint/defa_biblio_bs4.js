@@ -100,6 +100,22 @@ function log_error_01(fout, error) {
 }
 /* ========================================================================== */
 /**
+ * @name isSafari()
+ * @description Is de Browser Safari?
+ */
+function isSafari() {
+  var isSafari = navigator.vendor && navigator.vendor.indexOf('Apple') > -1 &&
+                 navigator.userAgent &&
+                 navigator.userAgent.indexOf('CriOS') == -1 &&
+                 navigator.userAgent.indexOf('FxiOS') == -1;
+  // Firefox geeft "", wsch door alle addOns                 
+  if (isSafari == "") {
+    isSafari = false;       
+  }
+  return isSafari;
+}
+/* ========================================================================== */
+/**
  * @name addClassName
  * @function
  * @global
@@ -502,7 +518,7 @@ function generate_pwa_apple_01B(json_pwa_apple_01, json_manifest_01, full_path_r
 /**
  * @name generate_pwa_manifest_01
  */
-function generate_pwa_manifest_01( json_manifest_01, json_twitter_01, full_path_rel_icons) {
+function generate_pwa_manifest_01( json_manifest_01, json_twitter_01, json_bedrijf, full_path_rel_icons) {
 
   let tpl_pwa_01 = `
     {
@@ -512,7 +528,7 @@ function generate_pwa_manifest_01( json_manifest_01, json_twitter_01, full_path_
       "theme_color":       "${ json_manifest_01.glint_manifest_theme_color }",
       "background_color":  "${ json_manifest_01.glint_manifest_bg_color }",
       "display":           "${ json_manifest_01.glint_manifest_display }",      
-      "description":       "${ json_manifest_01.glint_manifest_description }",  
+      "description":       "${ json_bedrijf.meta_description }",  
       "orientation":       "${ json_manifest_01.glint_manifest_orientation }",
 
       "icons": [

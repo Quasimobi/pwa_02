@@ -2353,7 +2353,7 @@ textarea.form-control {
 
   .form-inline .custom-control-label {
     margin-bottom: 0; } }
-.btn {
+.btn, pwa-install::part(openButton) {
   display: inline-block;
   font-weight: 400;
   color: #aaa;
@@ -2375,22 +2375,22 @@ textarea.form-control {
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out; }
 
 @media (prefers-reduced-motion: reduce) {
-  .btn {
+  .btn, pwa-install::part(openButton) {
     -webkit-transition: none;
     transition: none; } }
-.btn:hover {
+.btn:hover, pwa-install:hover::part(openButton) {
   color: #aaa;
   text-decoration: none; }
 
-.btn:focus, .btn.focus {
+.btn:focus, pwa-install:focus::part(openButton), .btn.focus, pwa-install.focus::part(openButton) {
   outline: 0;
   -webkit-box-shadow: 0 0 0 0.2rem rgba(58, 63, 68, 0.25);
   box-shadow: 0 0 0 0.2rem rgba(58, 63, 68, 0.25); }
 
-.btn.disabled, .btn:disabled {
+.btn.disabled, pwa-install.disabled::part(openButton), .btn:disabled, pwa-install:disabled::part(openButton) {
   opacity: 0.65; }
 
-.btn:not(:disabled):not(.disabled) {
+.btn:not(:disabled):not(.disabled), pwa-install:not(:disabled):not(.disabled)::part(openButton) {
   cursor: pointer; }
 
 a.btn.disabled, fieldset:disabled a.btn {
@@ -2458,34 +2458,34 @@ a.btn.disabled, fieldset:disabled a.btn {
   -webkit-box-shadow: 0 0 0 0.2rem rgba(142, 149, 154, 0.5);
   box-shadow: 0 0 0 0.2rem rgba(142, 149, 154, 0.5); }
 
-.btn-success {
+.btn-success, pwa-install::part(openButton) {
   color: #fff;
   background-color: #62c462;
   border-color: #62c462; }
 
-.btn-success:hover {
+.btn-success:hover, pwa-install:hover::part(openButton) {
   color: #fff;
   background-color: #46ba46;
   border-color: #42b142; }
 
-.btn-success:focus, .btn-success.focus {
+.btn-success:focus, pwa-install:focus::part(openButton), .btn-success.focus, pwa-install.focus::part(openButton) {
   color: #fff;
   background-color: #46ba46;
   border-color: #42b142;
   -webkit-box-shadow: 0 0 0 0.2rem rgba(122, 205, 122, 0.5);
   box-shadow: 0 0 0 0.2rem rgba(122, 205, 122, 0.5); }
 
-.btn-success.disabled, .btn-success:disabled {
+.btn-success.disabled, pwa-install.disabled::part(openButton), .btn-success:disabled, pwa-install:disabled::part(openButton) {
   color: #fff;
   background-color: #62c462;
   border-color: #62c462; }
 
-.btn-success:not(:disabled):not(.disabled):active, .btn-success:not(:disabled):not(.disabled).active, .show > .btn-success.dropdown-toggle {
+.btn-success:not(:disabled):not(.disabled):active, pwa-install:not(:disabled):not(.disabled):active::part(openButton), .btn-success:not(:disabled):not(.disabled).active, pwa-install:not(:disabled):not(.disabled).active::part(openButton), .show > .btn-success.dropdown-toggle, .show > pwa-install.dropdown-toggle::part(openButton) {
   color: #fff;
   background-color: #42b142;
   border-color: #3fa73f; }
 
-.btn-success:not(:disabled):not(.disabled):active:focus, .btn-success:not(:disabled):not(.disabled).active:focus, .show > .btn-success.dropdown-toggle:focus {
+.btn-success:not(:disabled):not(.disabled):active:focus, pwa-install:not(:disabled):not(.disabled):active:focus::part(openButton), .btn-success:not(:disabled):not(.disabled).active:focus, pwa-install:not(:disabled):not(.disabled).active:focus::part(openButton), .show > .btn-success.dropdown-toggle:focus, .show > pwa-install.dropdown-toggle:focus::part(openButton) {
   -webkit-box-shadow: 0 0 0 0.2rem rgba(122, 205, 122, 0.5);
   box-shadow: 0 0 0 0.2rem rgba(122, 205, 122, 0.5); }
 
@@ -2868,13 +2868,13 @@ a.btn.disabled, fieldset:disabled a.btn {
   color: #7A8288;
   pointer-events: none; }
 
-.btn-lg, .btn-group-lg > .btn {
+.btn-lg, .btn-group-lg > .btn, .btn-group-lg > pwa-install::part(openButton) {
   padding: 0.5rem 1rem;
   font-size: 1.171875rem;
   line-height: 1.5;
   border-radius: 0.3rem; }
 
-.btn-sm, .btn-group-sm > .btn {
+.btn-sm, pwa-install::part(openButton), .btn-group-sm > .btn, .btn-group-sm > pwa-install::part(openButton) {
   padding: 0.25rem 0.5rem;
   font-size: 0.8203125rem;
   line-height: 1.5;
@@ -3126,16 +3126,16 @@ input[type="submit"].btn-block, input[type="reset"].btn-block, input[type="butto
   display: inline-flex;
   vertical-align: middle; }
 
-.btn-group > .btn, .btn-group-vertical > .btn {
+.btn-group > .btn, .btn-group > pwa-install::part(openButton), .btn-group-vertical > .btn, .btn-group-vertical > pwa-install::part(openButton) {
   position: relative;
   -webkit-box-flex: 1;
   -ms-flex: 1 1 auto;
   flex: 1 1 auto; }
 
-.btn-group > .btn:hover, .btn-group-vertical > .btn:hover {
+.btn-group > .btn:hover, .btn-group > pwa-install:hover::part(openButton), .btn-group-vertical > .btn:hover, .btn-group-vertical > pwa-install:hover::part(openButton) {
   z-index: 1; }
 
-.btn-group > .btn:focus, .btn-group > .btn:active, .btn-group > .btn.active, .btn-group-vertical > .btn:focus, .btn-group-vertical > .btn:active, .btn-group-vertical > .btn.active {
+.btn-group > .btn:focus, .btn-group > pwa-install:focus::part(openButton), .btn-group > .btn:active, .btn-group > pwa-install:active::part(openButton), .btn-group > .btn.active, .btn-group > pwa-install.active::part(openButton), .btn-group-vertical > .btn:focus, .btn-group-vertical > pwa-install:focus::part(openButton), .btn-group-vertical > .btn:active, .btn-group-vertical > pwa-install:active::part(openButton), .btn-group-vertical > .btn.active, .btn-group-vertical > pwa-install.active::part(openButton) {
   z-index: 1; }
 
 .btn-toolbar {
@@ -3151,14 +3151,14 @@ input[type="submit"].btn-block, input[type="reset"].btn-block, input[type="butto
 .btn-toolbar .input-group {
   width: auto; }
 
-.btn-group > .btn:not(:first-child), .btn-group > .btn-group:not(:first-child) {
+.btn-group > .btn:not(:first-child), .btn-group > pwa-install:not(:first-child)::part(openButton), .btn-group > .btn-group:not(:first-child) {
   margin-left: -1px; }
 
-.btn-group > .btn:not(:last-child):not(.dropdown-toggle), .btn-group > .btn-group:not(:last-child) > .btn {
+.btn-group > .btn:not(:last-child):not(.dropdown-toggle), .btn-group > pwa-install:not(:last-child):not(.dropdown-toggle)::part(openButton), .btn-group > .btn-group:not(:last-child) > .btn, .btn-group > .btn-group:not(:last-child) > pwa-install::part(openButton) {
   border-top-right-radius: 0;
   border-bottom-right-radius: 0; }
 
-.btn-group > .btn:not(:first-child), .btn-group > .btn-group:not(:first-child) > .btn {
+.btn-group > .btn:not(:first-child), .btn-group > pwa-install:not(:first-child)::part(openButton), .btn-group > .btn-group:not(:first-child) > .btn, .btn-group > .btn-group:not(:first-child) > pwa-install::part(openButton) {
   border-top-left-radius: 0;
   border-bottom-left-radius: 0; }
 
@@ -3172,11 +3172,11 @@ input[type="submit"].btn-block, input[type="reset"].btn-block, input[type="butto
 .dropleft .dropdown-toggle-split::before {
   margin-right: 0; }
 
-.btn-sm + .dropdown-toggle-split, .btn-group-sm > .btn + .dropdown-toggle-split {
+.btn-sm + .dropdown-toggle-split, pwa-install::part(openButton) + .dropdown-toggle-split, .btn-group-sm > .btn + .dropdown-toggle-split, .btn-group-sm > pwa-install::part(openButton) + .dropdown-toggle-split {
   padding-right: 0.375rem;
   padding-left: 0.375rem; }
 
-.btn-lg + .dropdown-toggle-split, .btn-group-lg > .btn + .dropdown-toggle-split {
+.btn-lg + .dropdown-toggle-split, .btn-group-lg > .btn + .dropdown-toggle-split, .btn-group-lg > pwa-install::part(openButton) + .dropdown-toggle-split {
   padding-right: 0.75rem;
   padding-left: 0.75rem; }
 
@@ -3192,24 +3192,24 @@ input[type="submit"].btn-block, input[type="reset"].btn-block, input[type="butto
   -ms-flex-pack: center;
   justify-content: center; }
 
-.btn-group-vertical > .btn, .btn-group-vertical > .btn-group {
+.btn-group-vertical > .btn, .btn-group-vertical > pwa-install::part(openButton), .btn-group-vertical > .btn-group {
   width: 100%; }
 
-.btn-group-vertical > .btn:not(:first-child), .btn-group-vertical > .btn-group:not(:first-child) {
+.btn-group-vertical > .btn:not(:first-child), .btn-group-vertical > pwa-install:not(:first-child)::part(openButton), .btn-group-vertical > .btn-group:not(:first-child) {
   margin-top: -1px; }
 
-.btn-group-vertical > .btn:not(:last-child):not(.dropdown-toggle), .btn-group-vertical > .btn-group:not(:last-child) > .btn {
+.btn-group-vertical > .btn:not(:last-child):not(.dropdown-toggle), .btn-group-vertical > pwa-install:not(:last-child):not(.dropdown-toggle)::part(openButton), .btn-group-vertical > .btn-group:not(:last-child) > .btn, .btn-group-vertical > .btn-group:not(:last-child) > pwa-install::part(openButton) {
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0; }
 
-.btn-group-vertical > .btn:not(:first-child), .btn-group-vertical > .btn-group:not(:first-child) > .btn {
+.btn-group-vertical > .btn:not(:first-child), .btn-group-vertical > pwa-install:not(:first-child)::part(openButton), .btn-group-vertical > .btn-group:not(:first-child) > .btn, .btn-group-vertical > .btn-group:not(:first-child) > pwa-install::part(openButton) {
   border-top-left-radius: 0;
   border-top-right-radius: 0; }
 
-.btn-group-toggle > .btn, .btn-group-toggle > .btn-group > .btn {
+.btn-group-toggle > .btn, .btn-group-toggle > pwa-install::part(openButton), .btn-group-toggle > .btn-group > .btn, .btn-group-toggle > .btn-group > pwa-install::part(openButton) {
   margin-bottom: 0; }
 
-.btn-group-toggle > .btn input[type="radio"], .btn-group-toggle > .btn input[type="checkbox"], .btn-group-toggle > .btn-group > .btn input[type="radio"], .btn-group-toggle > .btn-group > .btn input[type="checkbox"] {
+.btn-group-toggle > .btn input[type="radio"], .btn-group-toggle > pwa-install::part(openButton) input[type="radio"], .btn-group-toggle > .btn input[type="checkbox"], .btn-group-toggle > pwa-install::part(openButton) input[type="checkbox"], .btn-group-toggle > .btn-group > .btn input[type="radio"], .btn-group-toggle > .btn-group > pwa-install::part(openButton) input[type="radio"], .btn-group-toggle > .btn-group > .btn input[type="checkbox"], .btn-group-toggle > .btn-group > pwa-install::part(openButton) input[type="checkbox"] {
   position: absolute;
   clip: rect(0, 0, 0, 0);
   pointer-events: none; }
@@ -3273,14 +3273,14 @@ input[type="submit"].btn-block, input[type="reset"].btn-block, input[type="butto
   display: -ms-flexbox;
   display: flex; }
 
-.input-group-prepend .btn, .input-group-append .btn {
+.input-group-prepend .btn, .input-group-prepend pwa-install::part(openButton), .input-group-append .btn, .input-group-append pwa-install::part(openButton) {
   position: relative;
   z-index: 2; }
 
-.input-group-prepend .btn:focus, .input-group-append .btn:focus {
+.input-group-prepend .btn:focus, .input-group-prepend pwa-install:focus::part(openButton), .input-group-append .btn:focus, .input-group-append pwa-install:focus::part(openButton) {
   z-index: 3; }
 
-.input-group-prepend .btn + .btn, .input-group-prepend .btn + .input-group-text, .input-group-prepend .input-group-text + .input-group-text, .input-group-prepend .input-group-text + .btn, .input-group-append .btn + .btn, .input-group-append .btn + .input-group-text, .input-group-append .input-group-text + .input-group-text, .input-group-append .input-group-text + .btn {
+.input-group-prepend .btn + .btn, .input-group-prepend pwa-install::part(openButton) + .btn, .input-group-prepend .btn + pwa-install::part(openButton), .input-group-prepend pwa-install::part(openButton) + pwa-install::part(openButton), .input-group-prepend .btn + .input-group-text, .input-group-prepend pwa-install::part(openButton) + .input-group-text, .input-group-prepend .input-group-text + .input-group-text, .input-group-prepend .input-group-text + .btn, .input-group-prepend .input-group-text + pwa-install::part(openButton), .input-group-append .btn + .btn, .input-group-append pwa-install::part(openButton) + .btn, .input-group-append .btn + pwa-install::part(openButton), .input-group-append pwa-install::part(openButton) + pwa-install::part(openButton), .input-group-append .btn + .input-group-text, .input-group-append pwa-install::part(openButton) + .input-group-text, .input-group-append .input-group-text + .input-group-text, .input-group-append .input-group-text + .btn, .input-group-append .input-group-text + pwa-install::part(openButton) {
   margin-left: -1px; }
 
 .input-group-prepend {
@@ -3314,7 +3314,7 @@ input[type="submit"].btn-block, input[type="reset"].btn-block, input[type="butto
 .input-group-lg > .form-control:not(textarea), .input-group-lg > .custom-select {
   height: calc(1.5em + 1rem + 2px); }
 
-.input-group-lg > .form-control, .input-group-lg > .custom-select, .input-group-lg > .input-group-prepend > .input-group-text, .input-group-lg > .input-group-append > .input-group-text, .input-group-lg > .input-group-prepend > .btn, .input-group-lg > .input-group-append > .btn {
+.input-group-lg > .form-control, .input-group-lg > .custom-select, .input-group-lg > .input-group-prepend > .input-group-text, .input-group-lg > .input-group-append > .input-group-text, .input-group-lg > .input-group-prepend > .btn, .input-group-lg > .input-group-prepend > pwa-install::part(openButton), .input-group-lg > .input-group-append > .btn, .input-group-lg > .input-group-append > pwa-install::part(openButton) {
   padding: 0.5rem 1rem;
   font-size: 1.171875rem;
   line-height: 1.5;
@@ -3323,7 +3323,7 @@ input[type="submit"].btn-block, input[type="reset"].btn-block, input[type="butto
 .input-group-sm > .form-control:not(textarea), .input-group-sm > .custom-select {
   height: calc(1.5em + 0.5rem + 2px); }
 
-.input-group-sm > .form-control, .input-group-sm > .custom-select, .input-group-sm > .input-group-prepend > .input-group-text, .input-group-sm > .input-group-append > .input-group-text, .input-group-sm > .input-group-prepend > .btn, .input-group-sm > .input-group-append > .btn {
+.input-group-sm > .form-control, .input-group-sm > .custom-select, .input-group-sm > .input-group-prepend > .input-group-text, .input-group-sm > .input-group-append > .input-group-text, .input-group-sm > .input-group-prepend > .btn, .input-group-sm > .input-group-prepend > pwa-install::part(openButton), .input-group-sm > .input-group-append > .btn, .input-group-sm > .input-group-append > pwa-install::part(openButton) {
   padding: 0.25rem 0.5rem;
   font-size: 0.8203125rem;
   line-height: 1.5;
@@ -3332,11 +3332,11 @@ input[type="submit"].btn-block, input[type="reset"].btn-block, input[type="butto
 .input-group-lg > .custom-select, .input-group-sm > .custom-select {
   padding-right: 2rem; }
 
-.input-group > .input-group-prepend > .btn, .input-group > .input-group-prepend > .input-group-text, .input-group > .input-group-append:not(:last-child) > .btn, .input-group > .input-group-append:not(:last-child) > .input-group-text, .input-group > .input-group-append:last-child > .btn:not(:last-child):not(.dropdown-toggle), .input-group > .input-group-append:last-child > .input-group-text:not(:last-child) {
+.input-group > .input-group-prepend > .btn, .input-group > .input-group-prepend > pwa-install::part(openButton), .input-group > .input-group-prepend > .input-group-text, .input-group > .input-group-append:not(:last-child) > .btn, .input-group > .input-group-append:not(:last-child) > pwa-install::part(openButton), .input-group > .input-group-append:not(:last-child) > .input-group-text, .input-group > .input-group-append:last-child > .btn:not(:last-child):not(.dropdown-toggle), .input-group > .input-group-append:last-child > pwa-install:not(:last-child):not(.dropdown-toggle)::part(openButton), .input-group > .input-group-append:last-child > .input-group-text:not(:last-child) {
   border-top-right-radius: 0;
   border-bottom-right-radius: 0; }
 
-.input-group > .input-group-append > .btn, .input-group > .input-group-append > .input-group-text, .input-group > .input-group-prepend:not(:first-child) > .btn, .input-group > .input-group-prepend:not(:first-child) > .input-group-text, .input-group > .input-group-prepend:first-child > .btn:not(:first-child), .input-group > .input-group-prepend:first-child > .input-group-text:not(:first-child) {
+.input-group > .input-group-append > .btn, .input-group > .input-group-append > pwa-install::part(openButton), .input-group > .input-group-append > .input-group-text, .input-group > .input-group-prepend:not(:first-child) > .btn, .input-group > .input-group-prepend:not(:first-child) > pwa-install::part(openButton), .input-group > .input-group-prepend:not(:first-child) > .input-group-text, .input-group > .input-group-prepend:first-child > .btn:not(:first-child), .input-group > .input-group-prepend:first-child > pwa-install:not(:first-child)::part(openButton), .input-group > .input-group-prepend:first-child > .input-group-text:not(:first-child) {
   border-top-left-radius: 0;
   border-bottom-left-radius: 0; }
 
@@ -4520,7 +4520,7 @@ a.badge:hover, a.badge:focus {
 .badge:empty {
   display: none; }
 
-.btn .badge {
+.btn .badge, pwa-install::part(openButton) .badge {
   position: relative;
   top: -1px; }
 
@@ -7247,13 +7247,13 @@ a.bg-dark:hover, a.bg-dark:focus, button.bg-dark:hover, button.bg-dark:focus {
 .m-2 {
   margin: 0.5rem !important; }
 
-.mt-2, .my-2 {
+.mt-2, .my-2, pwa-install::part(openButton) {
   margin-top: 0.5rem !important; }
 
 .mr-2, .mx-2 {
   margin-right: 0.5rem !important; }
 
-.mb-2, .my-2 {
+.mb-2, .my-2, pwa-install::part(openButton) {
   margin-bottom: 0.5rem !important; }
 
 .ml-2, .mx-2 {
@@ -7488,13 +7488,13 @@ a.bg-dark:hover, a.bg-dark:focus, button.bg-dark:hover, button.bg-dark:focus {
   .m-sm-0 {
     margin: 0 !important; }
 
-  .mt-sm-0, .my-sm-0 {
+  .mt-sm-0, .my-sm-0, pwa-install::part(openButton) {
     margin-top: 0 !important; }
 
   .mr-sm-0, .mx-sm-0 {
     margin-right: 0 !important; }
 
-  .mb-sm-0, .my-sm-0 {
+  .mb-sm-0, .my-sm-0, pwa-install::part(openButton) {
     margin-bottom: 0 !important; }
 
   .ml-sm-0, .mx-sm-0 {
@@ -8755,7 +8755,7 @@ a.text-dark:hover, a.text-dark:focus {
     -webkit-box-shadow: none !important;
     box-shadow: none !important; }
 
-  a:not(.btn) {
+  a:not(.btn):not(pwa-install::part(openButton)) {
     text-decoration: underline; }
 
   abbr[title]::after {
@@ -8874,16 +8874,16 @@ a.text-dark:hover, a.text-dark:focus {
 @media (max-width: 992px) {
   .navbar-expand-lg .navbar-brand, .navbar-expand-lg .nav-link {
     border: none !important; } }
-.btn {
+.btn, pwa-install::part(openButton) {
   border-color: rgba(0, 0, 0, 0.6);
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3); }
 
-.btn:not([disabled]):not(.disabled).active, .btn.disabled {
+.btn:not([disabled]):not(.disabled).active, pwa-install:not([disabled]):not(.disabled).active::part(openButton), .btn.disabled, pwa-install.disabled::part(openButton) {
   border-color: rgba(0, 0, 0, 0.6);
   -webkit-box-shadow: none;
   box-shadow: none; }
 
-.btn:hover, .btn:focus, .btn:not([disabled]):not(.disabled):active, .btn:not([disabled]):not(.disabled):active:hover, .btn:not([disabled]):not(.disabled).active:hover {
+.btn:hover, pwa-install:hover::part(openButton), .btn:focus, pwa-install:focus::part(openButton), .btn:not([disabled]):not(.disabled):active, pwa-install:not([disabled]):not(.disabled):active::part(openButton), .btn:not([disabled]):not(.disabled):active:hover, pwa-install:not([disabled]):not(.disabled):active:hover::part(openButton), .btn:not([disabled]):not(.disabled).active:hover, pwa-install:not([disabled]):not(.disabled).active:hover::part(openButton) {
   border-color: rgba(0, 0, 0, 0.6); }
 
 .btn-primary {
@@ -8914,7 +8914,7 @@ a.text-dark:hover, a.text-dark:focus {
   -webkit-filter: none;
   filter: none; }
 
-.btn-success {
+.btn-success, pwa-install::part(openButton) {
   background-image: -webkit-gradient(linear, left top, left bottom, from(#78cc78), color-stop(60%, #62c462), to(#53be53));
   background-image: linear-gradient(#78cc78, #62c462 60%, #53be53);
   background-repeat: no-repeat;
@@ -8922,7 +8922,7 @@ a.text-dark:hover, a.text-dark:focus {
   filter: none;
   color: #fff; }
 
-.btn-success:not([disabled]):not(.disabled):hover, .btn-success:not([disabled]):not(.disabled):focus, .btn-success:not([disabled]):not(.disabled):active, .btn-success:not([disabled]):not(.disabled).active {
+.btn-success:not([disabled]):not(.disabled):hover, pwa-install:not([disabled]):not(.disabled):hover::part(openButton), .btn-success:not([disabled]):not(.disabled):focus, pwa-install:not([disabled]):not(.disabled):focus::part(openButton), .btn-success:not([disabled]):not(.disabled):active, pwa-install:not([disabled]):not(.disabled):active::part(openButton), .btn-success:not([disabled]):not(.disabled).active, pwa-install:not([disabled]):not(.disabled).active::part(openButton) {
   background-image: -webkit-gradient(linear, left top, left bottom, from(#379337), color-stop(40%, #3b9e3b), to(#3ea63e));
   background-image: linear-gradient(#379337, #3b9e3b 40%, #3ea63e);
   background-repeat: no-repeat;
@@ -8979,7 +8979,7 @@ a.text-dark:hover, a.text-dark:focus {
 .btn-link, .btn-link:hover {
   border-color: transparent; }
 
-.btn-group .btn.active, .btn-group-vertical .btn.active {
+.btn-group .btn.active, .btn-group pwa-install.active::part(openButton), .btn-group-vertical .btn.active, .btn-group-vertical pwa-install.active::part(openButton) {
   border-color: rgba(0, 0, 0, 0.6); }
 
 h1, h2, h3, h4, h5, h6 {
@@ -9189,7 +9189,7 @@ legend {
 .alert-dark {
   background-color: #272B30; }
 
-.alert-light, .alert-light a:not(.btn), .alert-light .alert-link {
+.alert-light, .alert-light a:not(.btn):not(pwa-install::part(openButton)), .alert-light .alert-link {
   color: #272B30; }
 
 .badge-success, .badge-warning, .badge-info {
