@@ -1,0 +1,47 @@
+---
+layout: default_helena_10G_LINK
+---
+
+<div class="container">
+  <div class="row">
+    <div class="col-always-12B">    
+    <b>Code name of your browser:</b>&nbsp;&nbsp;<div id="0101_navigator"></div><br>
+    <b>Name of your browser:</b>&nbsp;&nbsp;<div id="0102_navigator"></div></br>
+    <b>Version of your browser:</b>&nbsp;&nbsp;<div id="0103_navigator"></div></br>
+    <b>Are cookies enabled in your browser?</b>&nbsp;&nbsp;<div id="0104_navigator"></div></br>
+    <b>Your coordinates:</b>&nbsp;&nbsp;<div id="0105_navigator"></div></br>
+    <b>Language of your browser:</b>&nbsp;&nbsp;<div id="0106_navigator"></div></br>
+    <b>Is the browser online?:</b>&nbsp;&nbsp;<div id="0107_navigator"></div></br>
+    <b>Platform of the browser:</b>&nbsp;&nbsp;<div id="0108_navigator"></div></br>
+    <b>Engine name of the browser:</b>&nbsp;&nbsp;<div id="0109_navigator"></div></br>
+    <b>User-agent header sent by the browser to the server:</b>&nbsp;&nbsp;<div id="0110_navigator"></div></br>
+  </div>
+  </div>
+</div>    
+
+<script>
+  document.getElementById("0101_navigator").innerHTML = navigator.appCodeName;
+  document.getElementById("0102_navigator").innerHTML = navigator.appName;  
+  document.getElementById("0103_navigator").innerHTML = navigator.appVersion;  
+  document.getElementById("0104_navigator").innerHTML = navigator.cookieEnabled;  
+  var id_location = document.getElementById("0105_navigator");
+  function getLocation() {
+    if (navigator.geolocation) {
+      navigator.geolocation.getCurrentPosition(showPosition);
+    } else { 
+      document.getElementById("0106_navigator").innerHTML = navigator.language;        
+      id_location.innerHTML = "Geolocation is not supported by this browser.";
+    }
+  }
+  function showPosition(position) {
+    id_location.innerHTML = "Latitude: " + position.coords.latitude + 
+    "<br>Longitude: " + position.coords.longitude;
+  }  
+  getLocation();
+  document.getElementById("0106_navigator").innerHTML = navigator.language;  
+  document.getElementById("0107_navigator").innerHTML = navigator.onLine;  
+  document.getElementById("0108_navigator").innerHTML = navigator.platform;  
+  document.getElementById("0109_navigator").innerHTML = navigator.product;  
+  x = "User-agent header sent: " + navigator.userAgent;
+  document.getElementById("0110_navigator").innerHTML = navigator.userAgent;  
+  </script>
