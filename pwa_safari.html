@@ -2,6 +2,18 @@
 layout: default_helena_10G_LINK
 ---
 
+<div class="container">
+  <div class="row">
+    <div class="col-always-12B">    
+    <b>td_js_generator:</b>&nbsp;&nbsp;<div id="0101_navigator"></div><br>
+    <b>isMac:</b>&nbsp;&nbsp;<div id="0102_navigator"></div><br>
+    <b>isMacLike:</b>&nbsp;&nbsp;<div id="0103_navigator"></div><br>
+    <b>isIOS:</b>&nbsp;&nbsp;<div id="0104_navigator"></div><br>            
+    <b>Safari:</b>&nbsp;&nbsp;<div id="0105_navigator"></div><br>
+    </div>
+  </div>
+</div>    
+
 <!--
 https://stackoverflow.com/questions/10527983/best-way-to-detect-mac-os-x-or-windows-computers-with-javascript-or-jquery
 -->
@@ -53,10 +65,69 @@ https://stackoverflow.com/questions/10527983/best-way-to-detect-mac-os-x-or-wind
             }
 return htmlTag.className;
         };
-</script>        
+</script>   
 
-        <script>
-  alert(testje());
+<script>
+function isMac() {
+  var isMac = navigator.platform.toUpperCase().indexOf('MAC')>=0;
+  // Firefox geeft "", wsch door alle addOns                 
+    if (isMac == "") {
+      isMac = false;       
+    }
+    return isMac;
+  }
+  function isMacLike() {
+  var isMacLike = /(Mac|iPhone|iPod|iPad)/i.test(navigator.platform);
+  // Firefox geeft "", wsch door alle addOns                 
+  if (isMacLike == "") {
+      isMacLike = false;       
+    }
+    return isMacLike;
+  }
+  function isIOS() {
+  var isIOS = /(iPhone|iPod|iPad)/i.test(navigator.platform);      
+  // Firefox geeft "", wsch door alle addOns                 
+    if (isIOS == "") {
+      isIOS = false;       
+    }
+    return isIOS;
+  }    
+</script>
+
+
+<script>
+  var x = testje();
+  document.getElementById("0101_navigator").innerHTML = x;
+  if (isMac() == false) {
+    var isMacTekst = "Geen isMac"
+  } else {
+    var isMacTekst = "Wel isMac"
+  }
+  document.getElementById("0102_navigator").innerHTML = isMacTekst;  
+
+  if (isMacLike() == false) {
+    var isMacLikeTekst = "Geen isMacLike"
+  } else {
+    var isMacLikeTekst = "Wel isMacLike"
+  }
+  document.getElementById("0103_navigator").innerHTML = isMacLikeTekst;  
+
+  if (isIOS() == false) {
+    var isIOSTekst = "Geen isIOS"
+  } else {
+    var isIOSTekst = "Wel isIOS"
+  }
+  document.getElementById("0104_navigator").innerHTML = isIOSTekst;  
+
+  if (isSafari() == false) {
+    var isSafariTekst = "Geen isSafari"
+  } else {
+    var isSafariTekst = "Wel isSafari"
+  }
+  document.getElementById("0105_navigator").innerHTML = isSafariTekst;  
+
+
+
 </script>        
 
 
